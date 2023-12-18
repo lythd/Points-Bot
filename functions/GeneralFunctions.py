@@ -7,7 +7,6 @@
 import discord
 from discord.ext import commands
 from discord import app_commands
-from discord import Color
 from discord.app_commands import Choice
 
 ## UTILITY ##
@@ -26,8 +25,8 @@ from JsonManager import *
 
 
 
-
-
+## SECRET COLOR OOO ##
+from discord import Color
 
 
 

@@ -3,13 +3,6 @@
 
 ### IMPORTS ###
 
-## MY OWN ##
-from ButtonMenu import ButtonMenu
-from JsonManager import *
-from GeneralFunctions import *
-from ItemFunctions import *
-from UserFunctions import *
-
 ## DISCORD ##
 import discord
 from discord.ext import commands
@@ -24,6 +17,13 @@ import random
 import time
 import math
 import copy
+
+## MY OWN ##
+from ButtonMenu import ButtonMenu
+from JsonManager import *
+from functions.GeneralFunctions import *
+from functions.ItemFunctions import *
+from functions.UserFunctions import *
 
 
 

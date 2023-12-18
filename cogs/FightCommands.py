@@ -21,10 +21,10 @@ import copy
 ## MY OWN ##
 from ButtonMenu import ButtonMenu
 from JsonManager import *
-from GeneralFunctions import *
-from ItemFunctions import *
-from UserFunctions import *
-from MechanicFunctions import *
+from functions.GeneralFunctions import *
+from functions.ItemFunctions import *
+from functions.UserFunctions import *
+from functions.MechanicFunctions import *
 
 
 ### GLOBALS ###

@@ -21,7 +21,7 @@ import copy
 ## MY OWN ##
 from ButtonMenu import ButtonMenu
 from JsonManager import *
-from GeneralFunctions import *
+from functions.GeneralFunctions import *
 
 
 

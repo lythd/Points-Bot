@@ -1,5 +1,6 @@
 .env
 TO DO.rtf
 data/*
-cogs/__pycache__/*
 __pycache__/*
+cogs/__pycache__/*
+functions/__pycache__/*

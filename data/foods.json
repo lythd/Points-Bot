@@ -1,0 +1,154 @@
+{
+    "bread": {
+        "energy": 4,
+        "name": "Bread"
+    },
+    "breadbundle": {
+        "energy": 45,
+        "name": "Bread Bundle"
+    },
+    "cactus": {
+        "energy": 11,
+        "name": "Cactus"
+    },
+    "cake": {
+        "energy": 10,
+        "name": "Cake"
+    },
+    "caramelscream": {
+        "energy": 5,
+        "name": "Caramel's Cream"
+    },
+    "chum": {
+        "energy": -1,
+        "name": "Chum"
+    },
+    "cookedcod": {
+        "energy": 30,
+        "name": "Cooked Cod"
+    },
+    "cookedsalmon": {
+        "energy": 50,
+        "name": "Cooked Salmon"
+    },
+    "cookie": {
+        "energy": 4,
+        "name": "Cookie"
+    },
+    "emeraldsquid": {
+        "energy": 3000,
+        "name": "Emerald Squid"
+    },
+    "filetmignon": {
+        "energy": 225,
+        "name": "Filet Mignon"
+    },
+    "goldensteak": {
+        "energy": 175,
+        "name": "Golden Steak"
+    },
+    "goldfish": {
+        "energy": 10,
+        "name": "Goldfish"
+    },
+    "goldgoldfish": {
+        "energy": 100,
+        "name": "Gold Goldfish"
+    },
+    "mango": {
+        "energy": 11,
+        "name": "Mango"
+    },
+    "milk": {
+        "energy": 4,
+        "name": "Milk"
+    },
+    "moldybread": {
+        "energy": -10,
+        "name": "Moldy Bread"
+    },
+    "mudpie": {
+        "energy": 1,
+        "name": "Mud Pie"
+    },
+    "mutton": {
+        "energy": 100,
+        "name": "Mutton"
+    },
+    "bacon": {
+        "energy": 24,
+        "name": "Bacon"
+    },
+    "netheriteworm": {
+        "energy": 5000,
+        "name": "Netherite Worm"
+    },
+    "potato": {
+        "energy": 10,
+        "name": "Potato"
+    },
+    "pufferfish": {
+        "energy": -100,
+        "name": "Pufferfish"
+    },
+    "pumpkin": {
+        "energy": 15,
+        "name": "Pumpkin"
+    },
+    "pumpkinpie": {
+        "energy": 45,
+        "name": "Pumpkin Pie"
+    },
+    "rawcod": {
+        "energy": 3,
+        "name": "Raw Cod"
+    },
+    "rawsalmon": {
+        "energy": 5,
+        "name": "Raw Salmon"
+    },
+    "piranha": {
+        "energy": 10,
+        "name": "Piranha"
+    },
+    "rockfish": {
+        "energy": 15,
+        "name": "Rockfish"
+    },
+    "roastedturkey": {
+        "energy": 20,
+        "name": "Roasted Turkey"
+    },
+    "seafooddinner": {
+        "energy": 40000,
+        "name": "Seafood Dinner"
+    },
+    "sealmeat": {
+        "energy": 25,
+        "name": "Seal Meat"
+    },
+    "squid": {
+        "energy": 300,
+        "name": "Squid"
+    },
+    "temmiespi": {
+        "energy": 50,
+        "name": "Temmie's Pi"
+    },
+    "vodka": {
+        "energy": 10,
+        "name": "Vodka"
+    },
+    "watermelon": {
+        "energy": 19,
+        "name": "Water Melon"
+    },
+    "wheat": {
+        "energy": 1,
+        "name": "Wheat"
+    },
+    "worm": {
+        "energy": 1,
+        "name": "Worm"
+    }
+}

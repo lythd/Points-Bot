@@ -12,12 +12,12 @@ The Points Bot for Blue's Server, ready to Mine, Craft, Fight, Fish, Build Facto
 - It is calculated to the previous hour based on the last update, and changing anything about your plots will automatically collect before, so its a good idea to wait until just after a number of hours from the last update. Ie if you bought a cow farm at 8:14am and its now 3:05pm don't do anything yet, wait until 3:15pm just to be safe. It's not a big deal but might as well.
 - However plots get a lot faster once you can get some machines, machines can be bought from other people or made in factories. Machines drastically improve performance. Machines require power, a unit of energy (EU) is equal to 1 lampoil or 1 coal, and machines require a certain amount every hour, if the total machine power needed in a plot is not met then no machines will collect anything in that plot. Power must be generated on that plot (remember plots will be automatically merged), any excess oil or coal produced can be collected by the player. Wind and Solar are also options but they don't give any resources if you have excess power, and depend on how windy and sunny it is in that location.
 - plotlist command, /plotlist, Displays a list of every plot type.
-- plots command, plots {location=All}, value = "Displays a list of all of your plots in {location}.
-- plotbuy command, /plotbuy <location> <plot> {amount=1}, value = "Buys {amount} of <plot> in {location}.
-- plotsell command, /plotsell <location> <plot> {amount=1}, value = "Sells {amount} of <plot> in {location}.
-- plotcollect command, /plotcollect, value = "Collects from every plot, can be used every hour.
-- plotput command, /plotput <machine> <location> <plot> {amount=1}, value = "Puts {amount} of <machine> in <plot> at <location>.
-- plottake command, /plottake <machine> <location> <plot> {amount=1}, value = "Takes {amount} of <machine> from <plot> at <location>.
+- plots command, plots {location=All}, Displays a list of all of your plots in {location}.
+- plotbuy command, /plotbuy <location> <plot> {amount=1}, Buys {amount} of <plot> in {location}.
+- plotsell command, /plotsell <location> <plot> {amount=1}, Sells {amount} of <plot> in {location}.
+- plotcollect command, /plotcollect, Collects from every plot, can be used every hour.
+- plotput command, /plotput <machine> <location> <plot> {amount=1}, Puts {amount} of <machine> in <plot> at <location>.
+- plottake command, /plottake <machine> <location> <plot> {amount=1}, Takes {amount} of <machine> from <plot> at <location>.
 - for plots, there would be some items the player can't harvest on their own, like oil needs to be drilled, emerald and ores need to be mined, and also i think for pumpkins making a pumpkin farm (which would technically be a machine) using pumpkin seeds would be the only way to get pumpkins. it also needs to give u seeds somehow, and it cant be crafting that defeats the whole point if u could craft a bunch from bought pumpkins (even if limiting to the pumpkin seed flag u can do that later and break), maybe like 1/5 pumpkins turn into a pumpkin seed, and farms require 20 seeds, that way it requires killing or buying quite a few to even getting started, and also limits growth if each one only has like 50/day. i like that, it is a weird exception for that to be the only additional item, but if theres more i can code it to take from file. the pumpkin farm would have the advantage of only requiring pumpkin seeds, no machines or anything, as well as pumpkins being very very abundant in the jungle, and giving a lot of pumpkins, maybe like double what other plots would give. the melon equivalent would be like automatic melon farm, and crafted using only one melon, but plenty of machines, so very expensive.
 
 ### Factories

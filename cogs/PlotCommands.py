@@ -30,7 +30,7 @@ from MechanicFunctions import *
 
 ### CLASS ###
 
-class FishCommands(commands.Cog):
+class PlotCommands(commands.Cog):
     def __init__(self,bot):
         self.bot = bot
     
@@ -52,6 +52,7 @@ class FishCommands(commands.Cog):
     
 #---------------------------------------------------------------------------COMMANDS----------------------------------------------------------------------------------------#
     
+    '''
     @app_commands.command(description="Fishes at the current location.")
     async def fish(self, interaction: discord.Interaction):
         #setup
@@ -138,7 +139,7 @@ class FishCommands(commands.Cog):
         if item != "" and amt != 0: em.add_field(name=item,value=amt)
         if specialdrop != "None" and specialamt != 0: em.add_field(name=specialdrop,value=specialamt)
         await interaction.response.send_message(embed = em)
-    
+    '''
     
     
     
@@ -163,4 +164,4 @@ class FishCommands(commands.Cog):
 ### FINAL ###
 
 async def setup(bot:commands.Bot):
-    await bot.add_cog(FishCommands(bot),guilds=[discord.Object(id=490588110590181376)])
+    await bot.add_cog(PlotCommands(bot),guilds=[discord.Object(id=490588110590181376)])

@@ -1,4 +1,4 @@
 .env
-data/*
+data/
 cogs/__pycache__/*
 __pycache__/*

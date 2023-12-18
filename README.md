@@ -19,11 +19,13 @@ The Points Bot for Blue's Server, ready to Mine, Craft, Fight, Fish, Build Facto
 - plotput command, /plotput <machine> <location> <plot> {amount=1}, Puts {amount} of <machine> in <plot> at <location>.
 - plottake command, /plottake <machine> <location> <plot> {amount=1}, Takes {amount} of <machine> from <plot> at <location>.
 - for plots, there would be some items the player can't harvest on their own, like oil needs to be drilled, emerald and ores need to be mined, and also i think for pumpkins making a pumpkin farm (which would technically be a machine) using pumpkin seeds would be the only way to get pumpkins. it also needs to give u seeds somehow, and it cant be crafting that defeats the whole point if u could craft a bunch from bought pumpkins (even if limiting to the pumpkin seed flag u can do that later and break), maybe like 1/5 pumpkins turn into a pumpkin seed, and farms require 20 seeds, that way it requires killing or buying quite a few to even getting started, and also limits growth if each one only has like 50/day. i like that, it is a weird exception for that to be the only additional item, but if theres more i can code it to take from file. the pumpkin farm would have the advantage of only requiring pumpkin seeds, no machines or anything, as well as pumpkins being very very abundant in the jungle, and giving a lot of pumpkins, maybe like double what other plots would give. the melon equivalent would be like automatic melon farm, and crafted using only one melon, but plenty of machines, so very expensive.
+- plot accessories and stats and stuff, i think these would basically just multiply your daily manual resource collection limit, so with a diamond hoe, watering can, and a strawhat maybe you get +100% resource limit so you can collect double, also this would apply to all resources even if they don't fit the theme, though most of the manual ones are farming related anyway. this does not apply to the same resources for machine extraction.
+- silicon extractor, machine for plots thats needed to get raw silicon
 
 ### Factories
 - At last, the industrial revolution! Factories allow you to make complicated machines for plots and other factories, as well as certain items that are too complicated to craft, like metal bars from ores.
 - There are a lot of factories and knowing what you need to make what can be complicated, so use /factorytiers to get a good view on progression. Factories on each tier can be made entirely from factories on the tier below. This isn't a strict rule though if you can get certain parts from someone else you can skip that.
-- Once you have a good luck and know what factory to start with, you can make that factory. Making works a lot like crafting however the result isn't an item its a factory, and you will always get one of a single type of a factory.
+- Once you have a good look and know what factory to start with, you can make that factory. Making works a lot like crafting however the result isn't an item its a factory, and you will always get one of a single type of a factory.
 - After that you can use a factory to get items, keep in mind it may produce more than one item at a time so the total amount is not necessarily the same. Factories typically produce a single type of item but can produce more. Sometimes the factory name is the same as the item, but in other cases it might not be, so make sure you know.
 - factorylist command, /factorylist, Displays a list of every factory type.
 - factorytiers command, /factorytiers, Displays a list of every factory type in a tiered format to understand progression.
@@ -32,6 +34,7 @@ The Points Bot for Blue's Server, ready to Mine, Craft, Fight, Fish, Build Facto
 - factoryuse command, /factoryuse <factory> {amount=1}, Uses a <factory> {amount> times.
 - pumpkin pie factory that makes them for slightly cheaper
 - various smelting/cooking factories, like for cooked cod/salmon and for glass, makes cheaper than any crafting if i do have a crafting
+- caramel cloning facility, factory that duplicates caramels cream, i think caramel would start with the first caramels cream. the duplication would be pretty expensive, and the additional ingredient would probably be like a bunch of "raw materials" like 3 sand, 3 wood, 3 dirt, 3 stone.
 
 ### Quests
 - Every day there is a new quest item that can only be obtained on that day. Check it out to see what location it is in, and whether you need to mine, fish, or fight to obtain it.

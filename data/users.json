@@ -1,0 +1,662 @@
+{
+    "325691401851633674": {
+        "bag": [
+            {
+                "amount": 5001,
+                "item": "netheriteaxe"
+            },
+            {
+                "amount": 4996,
+                "item": "diamondaxe"
+            },
+            {
+                "amount": 5000,
+                "item": "titaniumchestplate"
+            },
+            {
+                "amount": 4998,
+                "item": "floralarmor"
+            },
+            {
+                "amount": 4937,
+                "item": "cactuspotion"
+            },
+            {
+                "amount": 4974,
+                "item": "beetlemasterpotion"
+            },
+            {
+                "amount": 4995,
+                "item": "manacrystal"
+            },
+            {
+                "amount": 4998,
+                "item": "flamethrower"
+            },
+            {
+                "amount": 4998,
+                "item": "powerflower"
+            },
+            {
+                "amount": 5000,
+                "item": "dualbow"
+            },
+            {
+                "amount": 4992,
+                "item": "emeraldarrow"
+            },
+            {
+                "amount": 4994,
+                "item": "rocketlauncher"
+            },
+            {
+                "amount": 4987,
+                "item": "explosiverocket"
+            },
+            {
+                "amount": 4987,
+                "item": "armorpenetratingrocket"
+            },
+            {
+                "amount": 4998,
+                "item": "ironsword"
+            },
+            {
+                "amount": 4999,
+                "item": "ironchestplate"
+            },
+            {
+                "amount": 4993,
+                "item": "shield"
+            },
+            {
+                "amount": 5000,
+                "item": "stonesword"
+            },
+            {
+                "amount": 31,
+                "item": "superrod"
+            },
+            {
+                "amount": 1,
+                "item": "goodrod"
+            },
+            {
+                "amount": 1,
+                "item": "fishingcap"
+            },
+            {
+                "amount": 28,
+                "item": "magicfishingcap"
+            },
+            {
+                "amount": 1,
+                "item": "mininghelmet"
+            },
+            {
+                "amount": 2,
+                "item": "miningcharm"
+            },
+            {
+                "amount": 1,
+                "item": "rockhelmet"
+            },
+            {
+                "amount": 8,
+                "item": "worm"
+            },
+            {
+                "amount": 100,
+                "item": "squid"
+            },
+            {
+                "amount": 8,
+                "item": "rawcod"
+            },
+            {
+                "amount": 36,
+                "item": "rubber"
+            },
+            {
+                "amount": 1,
+                "item": "oldrod"
+            },
+            {
+                "amount": 16,
+                "item": "algae"
+            },
+            {
+                "amount": 38,
+                "item": "string"
+            },
+            {
+                "amount": 5,
+                "item": "rawsalmon"
+            },
+            {
+                "amount": 7,
+                "item": "waterbottle"
+            },
+            {
+                "amount": 6,
+                "item": "pufferfish"
+            },
+            {
+                "amount": 2,
+                "item": "netheritehelmet"
+            },
+            {
+                "amount": 1,
+                "item": "stonesword"
+            },
+            {
+                "amount": 3,
+                "item": "silkcloth"
+            },
+            {
+                "amount": 2457,
+                "item": "bone"
+            },
+            {
+                "amount": 85,
+                "item": "experience"
+            },
+            {
+                "amount": 4373,
+                "item": "ironbar"
+            },
+            {
+                "amount": 2,
+                "item": "chum"
+            },
+            {
+                "amount": 1,
+                "item": "ironsword"
+            },
+            {
+                "amount": 1,
+                "item": "ironchestplate"
+            },
+            {
+                "amount": 1,
+                "item": "shield"
+            },
+            {
+                "amount": 3517,
+                "item": "bronzebar"
+            },
+            {
+                "amount": 562,
+                "item": "titaniumbar"
+            },
+            {
+                "amount": 3090,
+                "item": "silverbar"
+            },
+            {
+                "amount": 12481,
+                "item": "pumpkin"
+            },
+            {
+                "amount": 3555,
+                "item": "tinbar"
+            },
+            {
+                "amount": 4137,
+                "item": "copperbar"
+            },
+            {
+                "amount": 4043,
+                "item": "goldbar"
+            },
+            {
+                "amount": 23,
+                "item": "cactus"
+            },
+            {
+                "amount": 1,
+                "item": "netherstar"
+            },
+            {
+                "amount": 2457,
+                "item": "emerald"
+            },
+            {
+                "amount": 425,
+                "item": "pumpkinseed"
+            },
+            {
+                "amount": 31,
+                "item": "prismarineshard"
+            },
+            {
+                "amount": 4,
+                "item": "goldwiring"
+            },
+            {
+                "amount": 2,
+                "item": "ironpickaxe"
+            },
+            {
+                "amount": 2,
+                "item": "crown"
+            },
+            {
+                "amount": 1,
+                "item": "goldsword"
+            },
+            {
+                "amount": 2,
+                "item": "leather"
+            },
+            {
+                "amount": 15,
+                "item": "copperwiring"
+            },
+            {
+                "amount": 3,
+                "item": "ironore"
+            },
+            {
+                "amount": 1410,
+                "item": "slimeball"
+            },
+            {
+                "amount": 4,
+                "item": "netheritebar"
+            },
+            {
+                "amount": 4,
+                "item": "copperore"
+            },
+            {
+                "amount": 1,
+                "item": "wood"
+            },
+            {
+                "amount": 1,
+                "item": "cactusshield"
+            },
+            {
+                "amount": 1000,
+                "item": "silkrod"
+            },
+            {
+                "amount": 992,
+                "item": "fishingpotion"
+            },
+            {
+                "amount": 1000,
+                "item": "starlightgoggles"
+            },
+            {
+                "amount": 1,
+                "item": "netheritesword"
+            },
+            {
+                "amount": 99,
+                "item": "devilray"
+            },
+            {
+                "amount": 1,
+                "item": "ironboots"
+            },
+            {
+                "amount": 3,
+                "item": "masterbolt"
+            },
+            {
+                "amount": 16,
+                "item": "potato"
+            }
+        ],
+        "boycotts": [],
+        "energy": 999664780,
+        "equipment": [
+            "netheriteaxe",
+            "titaniumchestplate",
+            "unholywings",
+            "None"
+        ],
+        "factories": {},
+        "fighttd": 6,
+        "fishtd": 22,
+        "gang": "None",
+        "lastbeg": "2023-05-30",
+        "lastfight": "2023-06-14",
+        "lastfish": "2023-06-14",
+        "lastmine": "2023-05-31",
+        "location": "theclouds",
+        "losses": 3,
+        "minetd": 450,
+        "mobkills": [
+            {
+                "amount": 2,
+                "mob": "husk"
+            },
+            {
+                "amount": 1,
+                "mob": "drowned"
+            },
+            {
+                "amount": 6,
+                "mob": "wither"
+            },
+            {
+                "amount": 6,
+                "mob": "skeletonking"
+            },
+            {
+                "amount": 6,
+                "mob": "pumpkinhorseman"
+            },
+            {
+                "amount": 6,
+                "mob": "ravager"
+            },
+            {
+                "amount": 7,
+                "mob": "guardian"
+            },
+            {
+                "amount": 14,
+                "mob": "rollingcactus"
+            },
+            {
+                "amount": 10,
+                "mob": "zombie"
+            },
+            {
+                "amount": 3,
+                "mob": "warden"
+            },
+            {
+                "amount": 1,
+                "mob": "elderguardian"
+            },
+            {
+                "amount": 4,
+                "mob": "giant"
+            },
+            {
+                "amount": 5,
+                "mob": "hugeslime"
+            },
+            {
+                "amount": 3,
+                "mob": "creeper"
+            },
+            {
+                "amount": 1,
+                "mob": "shark"
+            },
+            {
+                "amount": 4,
+                "mob": "zeus"
+            }
+        ],
+        "mobkos": [
+            {
+                "amount": 7,
+                "mob": "warden"
+            },
+            {
+                "amount": 8,
+                "mob": "giant"
+            },
+            {
+                "amount": 6,
+                "mob": "hugeslime"
+            },
+            {
+                "amount": 1,
+                "mob": "zombie"
+            },
+            {
+                "amount": 3,
+                "mob": "wither"
+            },
+            {
+                "amount": 7,
+                "mob": "pumpkinhorseman"
+            },
+            {
+                "amount": 4,
+                "mob": "ravager"
+            },
+            {
+                "amount": 5,
+                "mob": "skeletonking"
+            },
+            {
+                "amount": 2,
+                "mob": "guardian"
+            },
+            {
+                "amount": 2,
+                "mob": "zoglin"
+            },
+            {
+                "amount": 2,
+                "mob": "elderguardian"
+            }
+        ],
+        "money": 3303355367,
+        "name": "lythdd",
+        "processes": [],
+        "pumpkinseed": true,
+        "quests": 0,
+        "rocketacquired": false,
+        "stalls": {
+            "Motherrussia": [
+                "potato",
+                3,
+                "Buy our potatoes comrad!",
+                false,
+                1
+            ]
+        },
+        "victories": [
+            {
+                "amount": 1,
+                "person": "ly"
+            },
+            {
+                "amount": 2,
+                "person": "lythdd"
+            }
+        ],
+        "wins": 3
+    },
+    "370640311480877056": {
+        "bag": [
+            {
+                "amount": 2,
+                "item": "wood"
+            },
+            {
+                "amount": 0,
+                "item": "netheritesword"
+            },
+            {
+                "amount": 0,
+                "item": "thornschestplate"
+            },
+            {
+                "amount": 0,
+                "item": "leather"
+            }
+        ],
+        "energy": 100,
+        "equipment": [
+            "netheritesword",
+            "thornschestplate",
+            "leather",
+            "None"
+        ],
+        "factories": {},
+        "gang": "Thonkin",
+        "loans": {
+            "370640311480877056": [
+                11,
+                10
+            ]
+        },
+        "location": "skycity",
+        "money": 9960158,
+        "name": "DasJafss",
+        "processes": [],
+        "pumpkinseed": false,
+        "quests": 0,
+        "rocketacquired": false,
+        "stalls": {
+            "Brown Shop": [
+                "pumpkin",
+                1,
+                "Hello I totally made this I am brown",
+                true,
+                10
+            ]
+        }
+    },
+    "551770187695652864": {
+        "energy": 100,
+        "equipment": [
+            "None",
+            "None",
+            "None",
+            "None"
+        ],
+        "factories": {},
+        "gang": "None",
+        "location": "skycity",
+        "money": 200,
+        "name": "ugandanknuckles_",
+        "processes": [],
+        "pumpkinseed": false,
+        "quests": 0,
+        "rocketacquired": false,
+        "stalls": {
+            "Ug Shop": [
+                "pumpkin",
+                2,
+                "Hello I totally made this I am ug",
+                true,
+                10
+            ]
+        }
+    },
+    "632312258034139166": {
+        "energy": 100,
+        "equipment": [
+            "None",
+            "None",
+            "None",
+            "None"
+        ],
+        "factories": {},
+        "gang": "None",
+        "location": "skycity",
+        "money": 1000233,
+        "name": "Rick Astley",
+        "processes": [],
+        "pumpkinseed": false,
+        "quests": 0,
+        "rocketacquired": false,
+        "stalls": {
+            "Rick Shop": [
+                "pumpkin",
+                3,
+                "Hello I totally made this I am rick",
+                false,
+                4
+            ]
+        }
+    },
+    "780260646968361051": {
+        "energy": 100,
+        "equipment": [
+            "None",
+            "None",
+            "None",
+            "None"
+        ],
+        "factories": {},
+        "gang": "None",
+        "location": "skycity",
+        "money": 200,
+        "name": "oneninth",
+        "processes": [],
+        "pumpkinseed": false,
+        "quests": 0,
+        "rocketacquired": false
+    },
+    "812605069580959798": {
+        "bag": [
+            {
+                "amount": 4,
+                "item": "coal"
+            },
+            {
+                "amount": 7,
+                "item": "orechunk"
+            },
+            {
+                "amount": 1,
+                "item": "wood"
+            },
+            {
+                "amount": 1,
+                "item": "tinore"
+            },
+            {
+                "amount": 1,
+                "item": "pickaxe"
+            }
+        ],
+        "energy": 64,
+        "equipment": [
+            "None",
+            "None",
+            "None",
+            "None"
+        ],
+        "factories": {},
+        "gang": "None",
+        "lastbeg": "2023-05-31",
+        "lastinterest": "2023-05-21",
+        "lastmine": "2023-05-31",
+        "loans": {
+            "812605069580959798": [
+                9,
+                20
+            ]
+        },
+        "location": "mines",
+        "minetd": 50,
+        "money": 4,
+        "name": "SoupSandwich007",
+        "processes": [],
+        "pumpkinseed": false,
+        "quests": 0,
+        "rocketacquired": false
+    },
+    "970757750646779905": {
+        "energy": 100,
+        "equipment": [
+            "None",
+            "None",
+            "None",
+            "None"
+        ],
+        "factories": {},
+        "gang": "None",
+        "location": "skycity",
+        "money": 299,
+        "name": "Piz-Buin",
+        "processes": [],
+        "pumpkinseed": false,
+        "quests": 0,
+        "rocketacquired": false
+    }
+}

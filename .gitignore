@@ -2,4 +2,3 @@
 data/*
 cogs/__pycache__/*
 __pycache__/*
-data/users.json

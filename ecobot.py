@@ -71,7 +71,7 @@ class Ecobot(commands.Bot):
 
 #---------------------------------------------------------------------------FINAL----------------------------------------------------------------------------------------#
 
-os.chdir("C:\\Users\\micha\\Documents\\Coding\\blue berry\\points bot")
+os.chdir("C:\\Users\\micha\\Documents\\Coding\\blue berry\\points bot\\Points-Bot")
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 bot = Ecobot()

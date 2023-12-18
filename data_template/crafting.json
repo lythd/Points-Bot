@@ -1,0 +1,820 @@
+{
+    "armorpiercingrocket": {
+        "amount": 1,
+        "category": "rocket",
+        "inputs": {
+            "blazerod": 10,
+            "titaniumbar": 20
+        },
+        "rocketrequired": true
+    },
+    "batteringram": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "ironbar": 20
+        }
+    },
+    "packedexperience": {
+        "amount": 1,
+        "category": "accessory",
+        "inputs": {
+            "experience": 100
+        }
+    },
+    "denseexperience": {
+        "amount": 1,
+        "category": "accessory",
+        "inputs": {
+            "packedexperience": 100
+        }
+    },
+    "binoculars": {
+        "amount": 1,
+        "category": "accessory",
+        "inputs": {
+            "glass": 5,
+            "ironbar": 5
+        }
+    },
+    "glowingworm": {
+        "amount": 1,
+        "category": "bait",
+        "inputs": {
+            "worm": 1,
+            "manacrystal": 2
+        }
+    },
+    "flyingfish": {
+        "amount": 1,
+        "category": "bait",
+        "inputs": {
+            "rawcod": 1,
+            "cloud": 25,
+            "string": 50,
+            "sugar": 25,
+            "manacrystal": 5
+        }
+    },
+    "glowingcod": {
+        "amount": 1,
+        "category": "bait",
+        "inputs": {
+            "worm": 1,
+            "manacrystal": 20
+        }
+    },
+    "blueringedoctopus": {
+        "amount": 1,
+        "category": "bait",
+        "inputs": {
+            "squid": 1,
+            "manacrystal": 200
+        }
+    },
+    "bonearrow": {
+        "amount": 5,
+        "category": "arrow",
+        "inputs": {
+            "bone": 1
+        }
+    },
+    "bonechestplate": {
+        "amount": 1,
+        "category": "armor",
+        "inputs": {
+            "bone": 8
+        }
+    },
+    "bonering": {
+        "amount": 1,
+        "category": "accessory",
+        "inputs": {
+            "bone": 5
+        }
+    },
+    "bread": {
+        "amount": 1,
+        "category": "food",
+        "inputs": {
+            "wheat": 3
+        }
+    },
+    "breadbundle": {
+        "amount": 1,
+        "category": "accessory",
+        "inputs": {
+            "bread": 10
+        }
+    },
+    "bronzepickaxe": {
+        "amount": 1,
+        "category": "pickaxe",
+        "inputs": {
+            "bronzebar": 8,
+            "wood": 2
+        }
+    },
+    "cactusshield": {
+        "amount": 1,
+        "category": "accessory",
+        "inputs": {
+            "cactus": 10,
+            "shield": 1
+        }
+    },
+    "cake": {
+        "amount": 1,
+        "category": "food",
+        "inputs": {
+            "wheat": 6
+        }
+    },
+    "chain": {
+        "amount": 3,
+        "category": "industrial",
+        "inputs": {
+            "screw": 6
+        }
+    },
+    "chainchestplate": {
+        "amount": 1,
+        "category": "armor",
+        "inputs": {
+            "chain": 8
+        }
+    },
+    "copperpickaxe": {
+        "amount": 1,
+        "category": "pickaxe",
+        "inputs": {
+            "copperbar": 6,
+            "wood": 2
+        }
+    },
+    "dagger": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "ironbar": 15,
+            "silverbar": 5,
+            "wood": 5
+        }
+    },
+    "densechestplate": {
+        "amount": 1,
+        "category": "armor",
+        "inputs": {
+            "silverbar": 4,
+            "titaniumbar": 4
+        }
+    },
+    "diamondaxe": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "diamond": 3,
+            "wood": 2
+        }
+    },
+    "diamondboots": {
+        "amount": 1,
+        "category": "armor",
+        "inputs": {
+            "diamond": 4
+        }
+    },
+    "diamondchestplate": {
+        "amount": 1,
+        "category": "armor",
+        "inputs": {
+            "diamond": 8
+        }
+    },
+    "diamondpickaxe": {
+        "amount": 1,
+        "category": "pickaxe",
+        "inputs": {
+            "diamond": 16,
+            "wood": 2
+        }
+    },
+    "diamondsword": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "orechunk": 2,
+            "wood": 2
+        }
+    },
+    "dualbow": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "goldbow": 2,
+            "titaniumbar": 3
+        }
+    },
+    "emeraldarrow": {
+        "amount": 5,
+        "category": "arrow",
+        "inputs": {
+            "emerald": 1
+        }
+    },
+    "emeraldpickaxe": {
+        "amount": 1,
+        "category": "pickaxe",
+        "inputs": {
+            "emerald": 18,
+            "wood": 2
+        }
+    },
+    "emeraldsquid": {
+        "amount": 1,
+        "category": "bait",
+        "inputs": {
+            "emerald": 20,
+            "squid": 1
+        }
+    },
+    "emeraldstaff": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "emerald": 1,
+            "manacrystal": 1,
+            "silverbar": 20
+        }
+    },
+    "emeraldwand": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "emerald": 1,
+            "manacrystal": 1,
+            "silverbar": 10
+        }
+    },
+    "enchantedshield": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "evenife": 1,
+            "shield": 1
+        }
+    },
+    "enchantedsword": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "diamondsword": 1,
+            "evenife": 1
+        }
+    },
+    "evenife": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "diamond": 5,
+            "emerald": 5,
+            "silverbar": 10
+        }
+    },
+    "explosiverocket": {
+        "amount": 1,
+        "category": "rocket",
+        "inputs": {
+            "blazerod": 20,
+            "titaniumbar": 10
+        },
+        "rocketrequired": true
+    },
+    "fishingcap": {
+        "amount": 1,
+        "category": "armor",
+        "inputs": {
+            "leather": 5
+        }
+    },
+    "flamethrower": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "blazerod": 10,
+            "bronzebar": 25
+        }
+    },
+    "floralarmor": {
+        "amount": 1,
+        "category": "armor",
+        "inputs": {
+            "algae": 25,
+            "manacrystal": 1,
+            "vine": 25,
+            "wood": 25
+        }
+    },
+    "gauntlet": {
+        "amount": 1,
+        "category": "accessory",
+        "inputs": {
+            "ironbar": 25
+        }
+    },
+    "glass": {
+        "amount": 2,
+        "category": "generic",
+        "inputs": {
+            "coal": 1,
+            "sand": 2
+        }
+    },
+    "goldaxe": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "goldbar": 3,
+            "wood": 2
+        }
+    },
+    "goldbow": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "goldbar": 3,
+            "string": 3
+        }
+    },
+    "goldbracelet": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "goldbar": 5
+        }
+    },
+    "goldgoldfish": {
+        "amount": 1,
+        "category": "bait",
+        "inputs": {
+            "goldbar": 1,
+            "goldfish": 1
+        }
+    },
+    "goldpickaxe": {
+        "amount": 1,
+        "category": "pickaxe",
+        "inputs": {
+            "goldbar": 14,
+            "wood": 2
+        }
+    },
+    "goldsword": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "goldbar": 2,
+            "wood": 2
+        }
+    },
+    "goodrod": {
+        "amount": 1,
+        "category": "rod",
+        "inputs": {
+            "ironbar": 5,
+            "string": 3
+        }
+    },
+    "grapplinghook": {
+        "amount": 1,
+        "category": "accessory",
+        "inputs": {
+            "chain": 15,
+            "silverbar": 5
+        }
+    },
+    "healbell": {
+        "amount": 1,
+        "category": "accessory",
+        "inputs": {
+            "emerald": 5,
+            "silverbar": 20
+        }
+    },
+    "ilmango": {
+        "amount": 1,
+        "category": "bait",
+        "inputs": {
+            "ironbar": 3,
+            "mango": 1
+        }
+    },
+    "ironaxe": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "ironbar": 3,
+            "wood": 2
+        }
+    },
+    "ironboots": {
+        "amount": 1,
+        "category": "armor",
+        "inputs": {
+            "ironbar": 4
+        }
+    },
+    "ironchestplate": {
+        "amount": 1,
+        "category": "armor",
+        "inputs": {
+            "ironbar": 8
+        }
+    },
+    "ironpickaxe": {
+        "amount": 1,
+        "category": "pickaxe",
+        "inputs": {
+            "ironbar": 10,
+            "wood": 2
+        }
+    },
+    "ironsword": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "ironbar": 2,
+            "wood": 2
+        }
+    },
+    "katana": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "ironbar": 20,
+            "silverbar": 10,
+            "wood": 10
+        }
+    },
+    "lavaprooffishinghook": {
+        "amount": 1,
+        "category": "accessory",
+        "inputs": {
+            "blazerod": 1,
+            "ironbar": 5
+        }
+    },
+    "leather": {
+        "amount": 1,
+        "category": "accessory",
+        "inputs": {
+            "filetmignon": 1
+        }
+    },
+    "magiccrystal": {
+        "amount": 1,
+        "category": "accessory",
+        "inputs": {
+            "manacrystal": 2000
+        }
+    },
+    "magicfishingcap": {
+        "amount": 1,
+        "category": "armor",
+        "inputs": {
+            "fishingcap": 1,
+            "manacrystal": 1
+        }
+    },
+    "magicguard": {
+        "amount": 1,
+        "category": "accessory",
+        "inputs": {
+            "emerald": 1,
+            "manacrystal": 1,
+            "titaniumbar": 5
+        }
+    },
+    "mininghelmet": {
+        "amount": 1,
+        "category": "armor",
+        "inputs": {
+            "ironbar": 5,
+            "torch": 5
+        }
+    },
+    "rockhelmet": {
+        "amount": 1,
+        "category": "armor",
+        "inputs": {
+            "mininghelmet": 1,
+            "rockfish": 1
+        }
+    },
+    "mudpie": {
+        "amount": 1,
+        "category": "food",
+        "inputs": {
+            "dirt": 5,
+            "pumpkin pie": 1
+        }
+    },
+    "cometlance": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "cometfragment": 2,
+            "wood": 1
+        }
+    },
+    "cometarmor": {
+        "amount": 1,
+        "category": "armor",
+        "inputs": {
+            "cometfragment": 5
+        }
+    },
+    "starlightgoggles": {
+        "amount": 1,
+        "category": "armor",
+        "inputs": {
+            "cometfragment": 1,
+            "glass": 10
+        }
+    },
+    "starlauncher": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "cometfragment": 1,
+            "rocketlauncher": 1
+        }
+    },
+    "meteorstaff": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "cometfragment": 2,
+            "manacrystal": 5
+        }
+    },
+    "netheriteaxe": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "netheritebar": 3,
+            "wood": 2
+        }
+    },
+    "netheritehelmet": {
+        "amount": 1,
+        "category": "armor",
+        "inputs": {
+            "netheritebar": 5
+        }
+    },
+    "netheritepickaxe": {
+        "amount": 1,
+        "category": "pickaxe",
+        "inputs": {
+            "netheritebar": 20,
+            "wood": 2
+        }
+    },
+    "netheritesword": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "netheritebar": 2,
+            "wood": 2
+        }
+    },
+    "netheriteworm": {
+        "amount": 1,
+        "category": "bait",
+        "inputs": {
+            "netheritebar": 1,
+            "worm": 1
+        }
+    },
+    "oldrod": {
+        "amount": 1,
+        "category": "rod",
+        "inputs": {
+            "string": 3,
+            "wood": 5
+        }
+    },
+    "pickaxe": {
+        "amount": 1,
+        "category": "pickaxe",
+        "inputs": {
+            "stone": 4,
+            "wood": 2
+        }
+    },
+    "portablewall": {
+        "amount": 1,
+        "category": "accessory",
+        "inputs": {
+            "ironbar": 10,
+            "stone": 20
+        }
+    },
+    "powerflower": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "algae": 5,
+            "manacrystal": 1,
+            "vine": 5,
+            "wood": 5
+        }
+    },
+    "pumpkinpie": {
+        "amount": 1,
+        "category": "food",
+        "inputs": {
+            "egg": 1,
+            "pumpkin": 1,
+            "sugar": 1
+        }
+    },
+    "rocketlauncher": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "blazerod": 50,
+            "titaniumbar": 50
+        },
+        "rocketrequired": true
+    },
+    "screw": {
+        "amount": 1,
+        "category": "industrial",
+        "inputs": {
+            "ironbar": 1
+        }
+    },
+    "torch": {
+        "amount": 2,
+        "category": "generic",
+        "inputs": {
+            "wood": 1,
+            "coal": 1
+        }
+    },
+    "seafooddinner": {
+        "amount": 1,
+        "category": "bait",
+        "inputs": {
+            "cookedcod": 20,
+            "cookedsalmon": 20,
+            "piranha": 10,
+            "rockfish": 1,
+            "goldfish": 2,
+            "pufferfish": 10,
+            "silverbar": 10,
+            "squid": 5
+        }
+    },
+    "shield": {
+        "amount": 1,
+        "category": "accessory",
+        "inputs": {
+            "ironbar": 1,
+            "wood": 6
+        }
+    },
+    "shurikens": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "ironbar": 5,
+            "silverbar": 5
+        }
+    },
+    "siliconwafer": {
+        "amount": 1,
+        "category": "industrial",
+        "inputs": {
+            "rawsilicon": 1
+        }
+    },
+    "silverpickaxe": {
+        "amount": 1,
+        "category": "pickaxe",
+        "inputs": {
+            "silverbar": 12,
+            "wood": 2
+        }
+    },
+    "sledgehammer": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "ironbar": 50,
+            "screw": 1,
+            "wood": 50
+        }
+    },
+    "spear": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "goldbar": 10,
+            "ironbar": 15
+        }
+    },
+    "stone": {
+        "amount": 1,
+        "category": "mining",
+        "inputs": {
+            "orechunk": 1
+        }
+    },
+    "stoneaxe": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "stone": 3,
+            "wood": 2
+        }
+    },
+    "stonesword": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "stone": 2,
+            "wood": 2
+        }
+    },
+    "sugar": {
+        "amount": 1,
+        "category": "food",
+        "inputs": {
+            "sugarcane": 1
+        }
+    },
+    "superrod": {
+        "amount": 1,
+        "category": "rod",
+        "inputs": {
+            "goldbar": 5,
+            "string": 3
+        }
+    },
+    "temmiespi": {
+        "amount": 1,
+        "category": "food",
+        "inputs": {
+            "pumpkinpie": 1
+        }
+    },
+    "thornschestplate": {
+        "amount": 1,
+        "category": "armor",
+        "inputs": {
+            "diamondchestplate": 1,
+            "thorn": 5
+        }
+    },
+    "tinbow": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "string": 3,
+            "tinbar": 3
+        }
+    },
+    "titaniumchestplate": {
+        "amount": 1,
+        "category": "armor",
+        "inputs": {
+            "titaniumbar": 8
+        }
+    },
+    "torch": {
+        "amount": 1,
+        "category": "mining",
+        "inputs": {
+            "coal": 1,
+            "wood": 1
+        }
+    },
+    "woodbow": {
+        "amount": 1,
+        "category": "weapon",
+        "inputs": {
+            "string": 3,
+            "wood": 3
+        }
+    },
+    "woodenarrow": {
+        "amount": 5,
+        "category": "arrow",
+        "inputs": {
+            "wood": 1
+        }
+    }
+}

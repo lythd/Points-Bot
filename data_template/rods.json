@@ -1,0 +1,30 @@
+{
+    "goodrod": {
+        "bcc": 75,
+        "durability": 80,
+        "fp": 75,
+        "lbc": 10,
+        "name": "Good Rod"
+    },
+    "oldrod": {
+        "bcc": 100,
+        "durability": 60,
+        "fp": 50,
+        "lbc": 15,
+        "name": "Old Rod"
+    },
+    "silkrod": {
+        "bcc": 25,
+        "durability": 200,
+        "fp": 150,
+        "lbc": 0,
+        "name": "Silk Rod"
+    },
+    "superrod": {
+        "bcc": 50,
+        "durability": 100,
+        "fp": 100,
+        "lbc": 5,
+        "name": "Super Rod"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "beetlemasterpotion": {
+        "amount": 1,
+        "inputs": {
+            "beetlehusk": 5,
+            "manacrystal": 2,
+            "waterbottle": 1
+        }
+    },
+    "cactuspotion": {
+        "amount": 1,
+        "inputs": {
+            "cactus": 25,
+            "manacrystal": 2,
+            "waterbottle": 1
+        }
+    },
+    "fishingpotion": {
+        "amount": 1,
+        "inputs": {
+            "manacrystal": 2,
+            "silkystring": 1,
+            "waterbottle": 1
+        }
+    },
+    "miningpotion": {
+        "amount": 1,
+        "inputs": {
+            "manacrystal": 2,
+            "miningcharm": 1,
+            "waterbottle": 1
+        }
+    },
+    "ironpotion": {
+        "amount": 1,
+        "inputs": {
+            "ironbar": 5,
+            "manacrystal": 2,
+            "waterbottle": 1
+        }
+    },
+    "strengthpotion": {
+        "amount": 1,
+        "inputs": {
+            "blazerod": 1,
+            "manacrystal": 2,
+            "waterbottle": 1
+        }
+    },
+    "turtlemasterpotion": {
+        "amount": 1,
+        "inputs": {
+            "manacrystal": 2,
+            "turtleshell": 1,
+            "waterbottle": 1
+        }
+    }
+}

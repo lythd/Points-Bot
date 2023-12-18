@@ -1,0 +1,1642 @@
+[
+    {
+        "category": "generic",
+        "description": "I wouldn't hang on to that for too long, its former owner might come after you. Let's just say you wouldn't want that.",
+        "name": "Glowing Eye",
+        "price": 0
+    },
+    {
+        "category": "generic",
+        "description": "A truly priceless trophy item.",
+        "name": "Nether Star",
+        "price": 0
+    },
+    {
+        "category": "generic",
+        "description": "A truly majestic trophy item.",
+        "name": "Crown",
+        "price": 0
+    },
+    {
+        "category": "generic",
+        "description": "A one of a kind trophy.",
+        "name": "Dragon Egg",
+        "price": 0
+    },
+    {
+        "category": "generic",
+        "description": "How did you get this???",
+        "name": "Command Block",
+        "price": 0
+    },
+    {
+        "bought": 100000,
+        "category": "generic",
+        "description": "Used in crafting, can be obtained from a forest.",
+        "name": "Wood",
+        "price": 5,
+        "sold": 100000
+    },
+    {
+        "bought": 1000,
+        "category": "generic",
+        "description": "Wood from a fireproof tree found in the nether.",
+        "name": "Crimson Wood",
+        "price": 25,
+        "sold": 1000
+    },
+    {
+        "bought": 25000,
+        "category": "generic",
+        "description": "Pretty important to uh see.",
+        "name": "Torch",
+        "price": 5,
+        "sold": 25000
+    },
+    {
+        "bought": 100000,
+        "category": "generic",
+        "description": "Dirt cheap!",
+        "name": "Dirt",
+        "price": 1,
+        "sold": 100000
+    },
+    {
+        "bought": 100000,
+        "category": "generic",
+        "description": "Used in crafting, can be obtained from a beach.",
+        "name": "Sand",
+        "price": 5,
+        "sold": 100000
+    },
+    {
+        "bought": 10000,
+        "category": "generic",
+        "description": "Smelted from sand, you can see through it!",
+        "name": "Glass",
+        "price": 10,
+        "sold": 10000
+    },
+    {
+        "bought": 10000,
+        "category": "generic",
+        "description": "A hard stone formed when lava cools.",
+        "name": "Obsidian",
+        "price": 100,
+        "sold": 10000
+    },
+    {
+        "category": "generic",
+        "description": "Well that's not a fish! Sea glass sure looks different to regular glass. Water bottles are commonly fished up in most places.",
+        "name": "Water Bottle",
+        "price": 0
+    },
+    {
+        "category": "generic",
+        "description": "A piece of cloud that fell from the sky.",
+        "name": "Cloud",
+        "price": 0
+    },
+    {
+        "category": "generic",
+        "description": "Found uncommonly by fishing in the jungle. Pointy!",
+        "name": "Thorn",
+        "price": 0
+    },
+    {
+        "category": "generic",
+        "description": "An uncommon drop from jungle enemies. Twisty!",
+        "name": "Vine",
+        "price": 0
+    },
+    {
+        "category": "generic",
+        "description": "A weird material, perhaps it could be useful in constructing a dangerous machine.",
+        "name": "Prismarine Shard",
+        "price": 0
+    },
+    {
+        "category": "generic",
+        "description": "Closely guarded by the Pumpkin Horseman, these seeds allow you to grow pumpkins.",
+        "name": "Pumpkin Seed",
+        "price": 0
+    },
+    {
+        "bought": 10000,
+        "category": "generic",
+        "description": "Dropped by skeletons, some cultures see it as taboo, others make sure to utilise it wherever they can.",
+        "name": "Bone",
+        "price": 15,
+        "sold": 10000
+    },
+    {
+        "bought": 10000,
+        "category": "generic",
+        "description": "Spider silk, although cheap it becomes expensive to gather the quantities needed for clothing.",
+        "name": "String",
+        "price": 5,
+        "sold": 10000
+    },
+    {
+        "bought": 1000,
+        "category": "generic",
+        "description": "Seems to be connected to the magic of the Enderman.",
+        "name": "Ender Pearl",
+        "price": 75,
+        "sold": 1000
+    },
+    {
+        "category": "generic",
+        "description": "This rod has a unique connection to fire, its composition is unknown.",
+        "name": "Blaze Rod",
+        "price": 0
+    },
+    {
+        "bought": 10000,
+        "category": "generic",
+        "description": "A sticky ball of slime.",
+        "name": "Slime Ball",
+        "price": 15,
+        "sold": 10000
+    },
+    {
+        "bought": 10000,
+        "category": "generic",
+        "description": "Found uncommonly in most bodies of water. Since it's a plant, maybe magic could transform it into a flower?",
+        "name": "Algae",
+        "price": 3,
+        "sold": 10000
+    },
+    {
+        "bought": 1000,
+        "category": "generic",
+        "description": "Found rarely by fishing in jungles, these husks limit their speed, but greatly increase their defense. I wonder if it could be used by humans?",
+        "name": "Beetle Husk",
+        "price": 30,
+        "sold": 1000
+    },
+    {
+        "bought": 150,
+        "category": "generic",
+        "description": "Found rarely from beetles in jungles, these husks are useful as a purple dye.",
+        "name": "Violet Husk",
+        "price": 1500,
+        "sold": 150
+    },
+    {
+        "bought": 100,
+        "category": "generic",
+        "description": "Found very rarely by fishing in jungles, these shells limit their offense and speed, but drastically increase their defense. I wonder if it could be used by humans?",
+        "name": "Turtle Shell",
+        "price": 90,
+        "sold": 100
+    },
+    {
+        "bought": 25,
+        "category": "generic",
+        "description": "Very warm, might make a good coat. Limited supply, so high price fluctuations.",
+        "name": "Seal Hide",
+        "price": 40,
+        "sold": 25
+    },
+    {
+        "bought": 10000,
+        "category": "generic",
+        "description": "Did you know there are many different solid phases of water?",
+        "name": "Ice",
+        "price": 25,
+        "sold": 10000
+    },
+    {
+        "bought": 5000,
+        "category": "generic",
+        "description": "Magma has pierced through this rock, be careful around it.",
+        "name": "Magma Block",
+        "price": 40,
+        "sold": 5000
+    },
+    {
+        "bought": 100,
+        "category": "generic",
+        "description": "The most luxurious of collectibles. Afforded only by those that are the master of stonks. It's an investors dream.",
+        "name": "Netherite Bar",
+        "price": 20000,
+        "sold": 100
+    },
+    {
+        "bought": 10,
+        "category": "generic",
+        "description": "This is a very magical crystal, it is said to give a special role to those who can afford it. (dm a manager for the role)",
+        "name": "Magic Crystal",
+        "price": 1000000,
+        "sold": 10
+    },
+    {
+        "bought": 100,
+        "category": "generic",
+        "description": "Plays Halo pretty fine.",
+        "name": "Xbox Series X",
+        "price": 1000,
+        "sold": 100
+    },
+    {
+        "bought": 100,
+        "category": "generic",
+        "description": "The bald head of a bald person.",
+        "name": "Blue's Bald Head",
+        "price": 300,
+        "sold": 100
+    },
+    {
+        "bought": 10000,
+        "category": "food",
+        "description": "A drink not normally found here.",
+        "name": "Vodka",
+        "price": 0,
+        "sold": 10000
+    },
+    {
+        "bought": 10000,
+        "category": "food",
+        "description": "A food not normally found here.",
+        "name": "Potato",
+        "price": 0,
+        "sold": 10000
+    },
+    {
+        "bought": 10000,
+        "category": "food",
+        "description": "A nice tasty cookie.",
+        "name": "Cookie",
+        "price": 0,
+        "sold": 10000
+    },
+    {
+        "bought": 10000,
+        "category": "food",
+        "description": "A nice tasty bucket of milk.",
+        "name": "Milk",
+        "price": 0,
+        "sold": 10000
+    },
+    {
+        "bought": 10000,
+        "category": "food",
+        "description": "A nice tasty loaf of bread.",
+        "name": "Bread",
+        "price": 2,
+        "sold": 10000
+    },
+    {
+        "bought": 1000,
+        "category": "food",
+        "description": "Nice some cooked fish.",
+        "name": "Cooked Cod",
+        "price": 20,
+        "sold": 1000
+    },
+    {
+        "bought": 1000,
+        "category": "food",
+        "description": "Nice some cooked fish.",
+        "name": "Cooked Salmon",
+        "price": 40,
+        "sold": 1000
+    },
+    {
+        "bought": 25,
+        "category": "food",
+        "description": "A rare ancient fish with tough rock-like armor, found deep underground.",
+        "name": "Rockfish",
+        "price": 7500,
+        "sold": 25
+    },
+    {
+        "bought": 1000,
+        "category": "food",
+        "description": "An aggressive fish found in the jungle.",
+        "name": "Piranha",
+        "price": 75,
+        "sold": 1000
+    },
+    {
+        "bought": 20000,
+        "category": "food",
+        "description": "A juicy slice of watermelon.",
+        "name": "Watermelon",
+        "price": 10,
+        "sold": 20000
+    },
+    {
+        "bought": 20000,
+        "category": "food",
+        "description": "Halloween decoration and food.",
+        "name": "Pumpkin",
+        "price": 10,
+        "sold": 20000
+    },
+    {
+        "bought": 20000,
+        "category": "food",
+        "description": "Tasty yum food.",
+        "name": "Sugar Cane",
+        "price": 4,
+        "sold": 20000
+    },
+    {
+        "bought": 20000,
+        "category": "food",
+        "description": "Tasty yum food.",
+        "name": "Sugar",
+        "price": 5,
+        "sold": 20000
+    },
+    {
+        "bought": 20000,
+        "category": "food",
+        "description": "What came first the chicken or the egg?",
+        "name": "Egg",
+        "price": 5,
+        "sold": 20000
+    },
+    {
+        "bought": 2000,
+        "category": "food",
+        "description": "Tasty yum food.",
+        "name": "Pumpkin Pie",
+        "price": 20,
+        "sold": 2000
+    },
+    {
+        "bought": 2000,
+        "category": "food",
+        "description": "Maybe not so tasty, but you can still eat it.",
+        "name": "Mud Pie",
+        "price": 25,
+        "sold": 2000
+    },
+    {
+        "bought": 2000,
+        "category": "food",
+        "description": "Cactus club!",
+        "name": "Cactus",
+        "price": 10,
+        "sold": 2000
+    },
+    {
+        "bought": 100,
+        "category": "food",
+        "description": "Best energy for your money, but limited supply.",
+        "name": "Filet Mignon",
+        "price": 64,
+        "sold": 100
+    },
+    {
+        "bought": 1000,
+        "category": "food",
+        "description": "It's a microwave, it uses the electromagnetic spectrum to heat your food.",
+        "name": "Microwave",
+        "price": 850,
+        "sold": 1000
+    },
+    {
+        "bought": 1000,
+        "category": "food",
+        "description": "A high quality steak with gold flakes in it.",
+        "name": "Golden Steak",
+        "price": 80,
+        "sold": 1000
+    },
+    {
+        "bought": 1000,
+        "category": "food",
+        "description": "Tasty mutton to eat.",
+        "name": "Mutton",
+        "price": 40,
+        "sold": 1000
+    },
+    {
+        "bought": 10000,
+        "category": "food",
+        "description": "Tasty bacon to eat.",
+        "name": "Bacon",
+        "price": 10,
+        "sold": 10000
+    },
+    {
+        "category": "food",
+        "description": "Cream of Caramel, smells suspiciously of seal.",
+        "name": "Caramel's Cream",
+        "price": 0
+    },
+    {
+        "category": "food",
+        "description": "3.1415926535...",
+        "name": "Temmie's Pi",
+        "price": 0
+    },
+    {
+        "bought": 100,
+        "category": "food",
+        "description": "Good for showing thanks during Thanksgiving.",
+        "name": "Roasted Turkey",
+        "price": 8,
+        "sold": 100
+    },
+    {
+        "bought": 100,
+        "category": "food",
+        "description": "Literally trash, why would you buy this?",
+        "name": "Moldy Bread",
+        "price": 1,
+        "sold": 100
+    },
+    {
+        "bought": 100,
+        "category": "food",
+        "description": "Slightly delicious, not that nutritious. Infuriates seal squad members.",
+        "name": "Seal Meat",
+        "price": 100,
+        "sold": 100
+    },
+    {
+        "category": "food",
+        "description": "Very tasty, not very nutritious though",
+        "name": "Cake",
+        "price": 0
+    },
+    {
+        "bought": 500000,
+        "category": "food",
+        "description": "Can be crafted in to bread and cake, but poor energy on its own.",
+        "name": "Wheat",
+        "price": 1,
+        "sold": 500000
+    },
+    {
+        "bought": 1000,
+        "category": "pickaxe",
+        "description": "Used to mine, more info in /pickaxes.",
+        "name": "Pickaxe",
+        "price": 20,
+        "sold": 1000
+    },
+    {
+        "bought": 900,
+        "category": "pickaxe",
+        "description": "Used to mine, more info in /pickaxes.",
+        "name": "Copper Pickaxe",
+        "price": 72,
+        "sold": 900
+    },
+    {
+        "bought": 700,
+        "category": "pickaxe",
+        "description": "Used to mine, more info in /pickaxes.",
+        "name": "Bronze Pickaxe",
+        "price": 160,
+        "sold": 700
+    },
+    {
+        "bought": 600,
+        "category": "pickaxe",
+        "description": "Used to mine, more info in /pickaxes.",
+        "name": "Iron Pickaxe",
+        "price": 300,
+        "sold": 600
+    },
+    {
+        "bought": 500,
+        "category": "pickaxe",
+        "description": "Used to mine, more info in /pickaxes.",
+        "name": "Silver Pickaxe",
+        "price": 840,
+        "sold": 500
+    },
+    {
+        "bought": 400,
+        "category": "pickaxe",
+        "description": "Used to mine, more info in /pickaxes.",
+        "name": "Gold Pickaxe",
+        "price": 1360,
+        "sold": 400
+    },
+    {
+        "bought": 300,
+        "category": "pickaxe",
+        "description": "Used to mine, more info in /pickaxes.",
+        "name": "Diamond Pickaxe",
+        "price": 4000,
+        "sold": 300
+    },
+    {
+        "bought": 200,
+        "category": "pickaxe",
+        "description": "Used to mine, more info in /pickaxes.",
+        "name": "Emerald Pickaxe",
+        "price": 8100,
+        "sold": 200
+    },
+    {
+        "bought": 100,
+        "category": "pickaxe",
+        "description": "Used to mine, more info in /pickaxes.",
+        "name": "Netherite Pickaxe",
+        "price": 360000,
+        "sold": 100
+    },
+    {
+        "bought": 5000,
+        "category": "mining",
+        "description": "The refined form of a slightly less common metal.",
+        "name": "Titanium Bar",
+        "price": 165,
+        "sold": 15000
+    },
+    {
+        "bought": 5000,
+        "category": "mining",
+        "description": "The basic form of a slightly less common metal.",
+        "name": "Titanium Ore",
+        "price": 200,
+        "sold": 15000
+    },
+    {
+        "bought": 1000,
+        "category": "mining",
+        "description": "A good item to buy and sell, fluctuates a ton like silver.",
+        "name": "Emerald",
+        "price": 500,
+        "sold": 1000
+    },
+    {
+        "bought": 2000,
+        "category": "mining",
+        "description": "Expensive investment, rarely fluctuates, when it does sure to be good though.",
+        "name": "Diamond",
+        "price": 300,
+        "sold": 2000
+    },
+    {
+        "bought": 5000,
+        "category": "mining",
+        "description": "Gold bar. Show off your wealth with this! Stable price, can hold a fair amount.",
+        "name": "Gold Bar",
+        "price": 100,
+        "sold": 5000
+    },
+    {
+        "bought": 5000,
+        "category": "mining",
+        "description": "Basic form of a rare metal.",
+        "name": "Gold Ore",
+        "price": 80,
+        "sold": 5000
+    },
+    {
+        "bought": 7000,
+        "category": "mining",
+        "description": "A bar of silver. Shiny. Worth less than gold, but fluctuates more. Investors love.",
+        "name": "Silver Bar",
+        "price": 85,
+        "sold": 7000
+    },
+    {
+        "bought": 7000,
+        "category": "mining",
+        "description": "Basic form of a fairly rare metal.",
+        "name": "Silver Ore",
+        "price": 65,
+        "sold": 7000
+    },
+    {
+        "bought": 25000,
+        "category": "mining",
+        "description": "A bar of iron. Used for industrial purposes.",
+        "name": "Iron Bar",
+        "price": 40,
+        "sold": 25000
+    },
+    {
+        "bought": 25000,
+        "category": "mining",
+        "description": "Basic form of a useful industrial metal.",
+        "name": "Iron Ore",
+        "price": 35,
+        "sold": 25000
+    },
+    {
+        "bought": 15000,
+        "category": "mining",
+        "description": "The first alloy.",
+        "name": "Bronze Bar",
+        "price": 25,
+        "sold": 15000
+    },
+    {
+        "bought": 20000,
+        "category": "mining",
+        "description": "The refined form of a common metal.",
+        "name": "Tin Bar",
+        "price": 20,
+        "sold": 20000
+    },
+    {
+        "bought": 20000,
+        "category": "mining",
+        "description": "From the far away lands of tinland, my dealer wont tell me where he gets it from.",
+        "name": "Tin Ore",
+        "price": 15,
+        "sold": 20000
+    },
+    {
+        "bought": 50000,
+        "category": "mining",
+        "description": "Copper Bar. Cheap, stable price. Good metal for machines and electronics.",
+        "name": "Copper Bar",
+        "price": 16,
+        "sold": 50000
+    },
+    {
+        "bought": 50000,
+        "category": "mining",
+        "description": "Basic form of a pretty common metal.",
+        "name": "Copper Ore",
+        "price": 15,
+        "sold": 50000
+    },
+    {
+        "bought": 250000,
+        "category": "mining",
+        "description": "A cheap industrial fuel.",
+        "name": "Coal",
+        "price": 4,
+        "sold": 250000
+    },
+    {
+        "bought": 1000000,
+        "category": "mining",
+        "description": "A junk piece of ore that cannot be used, or can it?",
+        "name": "Ore Chunk",
+        "price": 5,
+        "sold": 1000000
+    },
+    {
+        "bought": 500000,
+        "category": "mining",
+        "description": "Just a piece of stone.",
+        "name": "Stone",
+        "price": 6,
+        "sold": 500000
+    },
+    {
+        "bought": 5000,
+        "category": "mining",
+        "description": "A burnt piece of stone from the nether.",
+        "name": "Blackstone",
+        "price": 30,
+        "sold": 5000
+    },
+    {
+        "bought": 100,
+        "category": "industrial",
+        "description": "Lamp oil, fluctuates pretty heavily, a solid choice for starting investors.",
+        "name": "Lamp Oil",
+        "price": 10,
+        "sold": 100
+    },
+    {
+        "category": "industrial",
+        "description": "A basic part for making machines in factories.",
+        "name": "Basic Machine Part",
+        "price": 0
+    },
+    {
+        "category": "industrial",
+        "description": "Important part for making any factory to produce bars. Runs on coal.",
+        "name": "Industrial Press",
+        "price": 0
+    },
+    {
+        "category": "industrial",
+        "description": "Important part for making any factory to cut metal. Runs on lamp oil.",
+        "name": "Plasma Cutter",
+        "price": 0
+    },
+    {
+        "category": "industrial",
+        "description": "A basic item for making any part for a factory.",
+        "name": "Screw",
+        "price": 0
+    },
+    {
+        "category": "industrial",
+        "description": "Used for.. well.. whenever you need a chain!",
+        "name": "Chain",
+        "price": 0
+    },
+    {
+        "category": "industrial",
+        "description": "An advanced part for making machines in factories.",
+        "name": "Advanced Machine Part",
+        "price": 0
+    },
+    {
+        "category": "industrial",
+        "description": "An important part for cutting in factories.",
+        "name": "Diamond Saw",
+        "price": 0
+    },
+    {
+        "category": "industrial",
+        "description": "An important part for making machines in factories.",
+        "name": "Generator",
+        "price": 0
+    },
+    {
+        "bought": 4000,
+        "category": "industrial",
+        "description": "An important part for making certain machines in factories.",
+        "name": "Soldering Iron",
+        "price": 1000,
+        "sold": 4000
+    },
+    {
+        "category": "industrial",
+        "description": "A useful element for advanced machines.",
+        "name": "Raw Silicon",
+        "price": 0
+    },
+    {
+        "category": "industrial",
+        "description": "A useful item for making advanced parts.",
+        "name": "Silicon Wafer",
+        "price": 0
+    },
+    {
+        "category": "industrial",
+        "description": "A useful item for making insulated wires.",
+        "name": "Rubber",
+        "price": 0
+    },
+    {
+        "bought": 100000,
+        "category": "industrial",
+        "description": "A basic item for making machines.",
+        "name": "Copper Wiring",
+        "price": 10,
+        "sold": 100000
+    },
+    {
+        "bought": 40000,
+        "category": "industrial",
+        "description": "A basic item for connecting machines.",
+        "name": "Insulated Wiring",
+        "price": 20,
+        "sold": 40000
+    },
+    {
+        "bought": 10000,
+        "category": "industrial",
+        "description": "An advanced item for making advanced machines.",
+        "name": "Gold Wiring",
+        "price": 100,
+        "sold": 10000
+    },
+    {
+        "category": "industrial",
+        "description": "Important part for making food.",
+        "name": "Mill",
+        "price": 0
+    },
+    {
+        "category": "industrial",
+        "description": "Incase you ever want to take over a country. Do not try at home.",
+        "name": "Panzer 4",
+        "price": 0
+    },
+    {
+        "category": "industrial",
+        "description": "Wanna go to space? Go ahead! Who knows what else you can do with rocketry...",
+        "name": "Falcon Heavy Rocket",
+        "price": 0
+    },
+    {
+        "bought": 2500,
+        "category": "rod",
+        "description": "A beginner fishing rod, here!",
+        "name": "Old Rod",
+        "price": 25,
+        "sold": 2500
+    },
+    {
+        "bought": 1500,
+        "category": "rod",
+        "description": "An intermediate fishing rod, voila!",
+        "name": "Good Rod",
+        "price": 150,
+        "sold": 1500
+    },
+    {
+        "bought": 500,
+        "category": "rod",
+        "description": "An advanced fishing rod, behold!",
+        "name": "Super Rod",
+        "price": 450,
+        "sold": 500
+    },
+    {
+        "category": "rod",
+        "description": "A special fishing rod, since it has a silk line it will never break!",
+        "name": "Silk Rod",
+        "price": 0
+    },
+    {
+        "bought": 5000,
+        "category": "weapon",
+        "description": "This weapon will slice up a few things, although it is fragile.",
+        "name": "Stone Sword",
+        "price": 10,
+        "sold": 5000
+    },
+    {
+        "bought": 5000,
+        "category": "weapon",
+        "description": "This hefty weapon will put a dent into a few things, although it is fragile.",
+        "name": "Stone Axe",
+        "price": 15,
+        "sold": 5000
+    },
+    {
+        "bought": 5000,
+        "category": "weapon",
+        "description": "Produced by smiths since the ancient times, this weapon sill slice up some things.",
+        "name": "Iron Sword",
+        "price": 60,
+        "sold": 5000
+    },
+    {
+        "bought": 5000,
+        "category": "weapon",
+        "description": "Produced by smiths since the ancient times, this hefty weapon will put a dent into some things",
+        "name": "Iron Axe",
+        "price": 90,
+        "sold": 5000
+    },
+    {
+        "bought": 500,
+        "category": "weapon",
+        "description": "This weapon will slice up a lot of things, and has a chance to do something special; breaks easily",
+        "name": "Gold Sword",
+        "price": 180,
+        "sold": 500
+    },
+    {
+        "bought": 500,
+        "category": "weapon",
+        "description": "This hefty weapon will put a dent into a lot of things, and has a chance to do something special; breaks easily.",
+        "name": "Gold Axe",
+        "price": 270,
+        "sold": 500
+    },
+    {
+        "bought": 500,
+        "category": "weapon",
+        "description": "The blue glimmer will put fear into enemies, this weapon will slice up most things.",
+        "name": "Diamond Sword",
+        "price": 500,
+        "sold": 500
+    },
+    {
+        "bought": 500,
+        "category": "weapon",
+        "description": "The blue glimmer will put fear into enemies, this hefty weapon will put a dent into most things.",
+        "name": "Diamond Axe",
+        "price": 750,
+        "sold": 500
+    },
+    {
+        "category": "weapon",
+        "description": "A celestial weapon, this weapon will pierce anything.",
+        "name": "Comet Lance",
+        "price": 0
+    },
+    {
+        "bought": 500,
+        "category": "weapon",
+        "description": "A weapon fit for a God, this weapon will slice up anything.",
+        "name": "Netherite Sword",
+        "price": 36000,
+        "sold": 500
+    },
+    {
+        "bought": 500,
+        "category": "weapon",
+        "description": "A weapon fit for a God, this hefty weapon will put a dent into anything.",
+        "name": "Netherite Axe",
+        "price": 54000,
+        "sold": 500
+    },
+    {
+        "category": "weapon",
+        "description": "An enchanted sword that even the strongest warriors will fear.",
+        "name": "Enchanted Sword",
+        "price": 0
+    },
+    {
+        "category": "weapon",
+        "description": "An enchanted shield that even the strongest warriors will fear.",
+        "name": "Enchanted Shield",
+        "price": 0
+    },
+    {
+        "category": "weapon",
+        "description": "You may get some strange looks bringing this into a fight, but they won't be laughing soon.",
+        "name": "Battering Ram",
+        "price": 0
+    },
+    {
+        "category": "weapon",
+        "description": "Overwhelms your enemy with a swarm of shurikens before they can react.",
+        "name": "Shurikens",
+        "price": 0
+    },
+    {
+        "category": "weapon",
+        "description": "An ancient weapon, the faster you move, the stronger it swings.",
+        "name": "Katana",
+        "price": 0
+    },
+    {
+        "category": "weapon",
+        "description": "Evens out attack and defense.",
+        "name": "Evenife",
+        "price": 0
+    },
+    {
+        "category": "weapon",
+        "description": "A strong swing from this can handle any form of armored enemy; breaks easily.",
+        "name": "Sledgehammer",
+        "price": 0
+    },
+    {
+        "category": "weapon",
+        "description": "This weapon goes first and does a fair amount of damage, this decimated the ancient legions of the past.",
+        "name": "Spear",
+        "price": 0
+    },
+    {
+        "category": "weapon",
+        "description": "A favorite of assassins and thieves, does a lot of damage if it catches you off guard.",
+        "name": "Dagger",
+        "price": 0
+    },
+    {
+        "category": "weapon",
+        "description": "If you see a zombie with this, prepare for a strong thud.",
+        "name": "The Spade",
+        "price": 0
+    },
+    {
+        "category": "weapon",
+        "description": "A while ago a flood damaged a spring factory, many byproducts ran off into the river. Boiiing!",
+        "name": "Springy Spring",
+        "price": 0
+    },
+    {
+        "category": "weapon",
+        "description": "A weapon forged and wielded by Piglin Brutes, who knows how they made it so light weight.",
+        "name": "True Gold Axe",
+        "price": 0
+    },
+    {
+        "bought": 500,
+        "category": "weapon",
+        "description": "Used by wizards in the past to defend against foreign invaders. Shoots many smaller sparks.",
+        "name": "Emerald Wand",
+        "price": 1650,
+        "sold": 500
+    },
+    {
+        "bought": 500,
+        "category": "weapon",
+        "description": "YOU SHALL NOT PASS! Shoots a big spark.",
+        "name": "Emerald Staff",
+        "price": 2350,
+        "sold": 500
+    },
+    {
+        "category": "weapon",
+        "description": "Mwahahaha!",
+        "name": "Flamethrower",
+        "price": 0
+    },
+    {
+        "category": "weapon",
+        "description": "A magic weapon that gets stronger every turn, this rainbow flower was often given as a sign of love in magic communities. It used to naturally occur, now it can only be crafted with magic.",
+        "name": "Power Flower",
+        "price": 0
+    },
+    {
+        "category": "weapon",
+        "description": "Plays a soothing melody, yet its notes are deadly, heavy rain took this flute from a live performance in Sky City into a lake.",
+        "name": "Flute",
+        "price": 0
+    },
+    {
+        "category": "weapon",
+        "description": "A celestial weapon, this weapon will rain mayhem onto the battlefield.",
+        "name": "Meteor Staff",
+        "price": 0
+    },
+    {
+        "category": "weapon",
+        "description": "A godly weapon used by Zeus himself.",
+        "name": "Master Bolt",
+        "price": 0
+    },
+    {
+        "bought": 2500,
+        "category": "weapon",
+        "description": "A beginner bow, superiory archery often was the main reason for success in ancient battles.",
+        "name": "Wood Bow",
+        "price": 15,
+        "sold": 2500
+    },
+    {
+        "bought": 1500,
+        "category": "weapon",
+        "description": "An intermediate bow, superiory archery often was the main reason for success in ancient battles.",
+        "name": "Tin Bow",
+        "price": 60,
+        "sold": 1500
+    },
+    {
+        "bought": 500,
+        "category": "weapon",
+        "description": "An advanced bow, superiory archery often was the main reason for success in ancient battles.",
+        "name": "Gold Bow",
+        "price": 270,
+        "sold": 500
+    },
+    {
+        "category": "weapon",
+        "description": "A special bow that shoots twice, superiory archery often was the main reason for success in ancient battles.",
+        "name": "Dual Bow",
+        "price": 0
+    },
+    {
+        "category": "weapon",
+        "description": "Fighting is so last century, once you have mastered rocketry, you can blow your enemies up instead!",
+        "name": "Rocket Launcher",
+        "price": 0
+    },
+    {
+        "category": "weapon",
+        "description": "A celestial weapon, this weapon will annihilate your enemies.",
+        "name": "Star Launcher",
+        "price": 0
+    },
+    {
+        "bought": 500,
+        "category": "armor",
+        "description": "Produced by smiths since the ancient times, this armor is light.",
+        "name": "Iron Boots",
+        "price": 120,
+        "sold": 500
+    },
+    {
+        "bought": 500,
+        "category": "armor",
+        "description": "Produced by smiths since the ancient times, this armor can stand some blows.",
+        "name": "Iron Chestplate",
+        "price": 240,
+        "sold": 500
+    },
+    {
+        "bought": 500,
+        "category": "armor",
+        "description": "The blue gimmer will put fear into enemies, this armor is light and strong.",
+        "name": "Diamond Boots",
+        "price": 1000,
+        "sold": 500
+    },
+    {
+        "bought": 500,
+        "category": "armor",
+        "description": "The blue gimmer will put fear into enemies, this armor can stand most blows.",
+        "name": "Diamond Chestplate",
+        "price": 2000,
+        "sold": 500
+    },
+    {
+        "bought": 500,
+        "category": "armor",
+        "description": "Sacrificed a bit of protection for the extra damage from the thorns.",
+        "name": "Thorns Chestplate",
+        "price": 3000,
+        "sold": 500
+    },
+    {
+        "bought": 500,
+        "category": "armor",
+        "description": "Made of solid titanium nothing will get through this, although it can slow you down.",
+        "name": "Titanium Chestplate",
+        "price": 1200,
+        "sold": 500
+    },
+    {
+        "category": "armor",
+        "description": "Made of a silver-titanium alloy this armor is unusually dense.",
+        "name": "Dense Chestplate",
+        "price": 0
+    },
+    {
+        "bought": 500,
+        "category": "armor",
+        "description": "Armor fit for a God, this armor can stand all blows.",
+        "name": "Netherite Helmet",
+        "price": 90000,
+        "sold": 500
+    },
+    {
+        "category": "armor",
+        "description": "Celestial armor, this armor can stand all blows.",
+        "name": "Comet Armor",
+        "price": 0
+    },
+    {
+        "category": "armor",
+        "description": "Celestial equipment, these goggles help you mine and fish.",
+        "name": "Starlight Goggles",
+        "price": 0
+    },
+    {
+        "category": "armor",
+        "description": "You wouldn't think a wreath of flowers provides much defense, and you would be right, but it does heal you up pretty good! Its flowers used to naturally occur, now it can only be crafted with magic.",
+        "name": "Floral Armor",
+        "price": 0
+    },
+    {
+        "bought": 500,
+        "category": "armor",
+        "description": "Made from bones, this chestplate feels taboo, but it has some special benefits.",
+        "name": "Bone Chestplate",
+        "price": 100,
+        "sold": 500
+    },
+    {
+        "bought": 500,
+        "category": "armor",
+        "description": "Made from chains, this armor is light weight, but it also benefits piercing damage.",
+        "name": "Chainmail Chestplate",
+        "price": 400,
+        "sold": 500
+    },
+    {
+        "bought": 500,
+        "category": "armor",
+        "description": "Buffs double ore chance.",
+        "name": "Mining Helmet",
+        "price": 150,
+        "sold": 500
+    },
+    {
+        "category": "armor",
+        "description": "Strongly buffs double ore chance.",
+        "name": "Rock Helmet",
+        "price": 0
+    },
+    {
+        "bought": 500,
+        "category": "armor",
+        "description": "Buffs fishing strength.",
+        "name": "Fishing Cap",
+        "price": 250,
+        "sold": 500
+    },
+    {
+        "category": "armor",
+        "description": "Strongly buffs fishing strength.",
+        "name": "Magic Fishing Cap",
+        "price": 0
+    },
+    {
+        "bought": 2500,
+        "category": "accessory",
+        "description": "Buffs max health and defense.",
+        "name": "Leather",
+        "price": 50,
+        "sold": 2500
+    },
+    {
+        "category": "accessory",
+        "description": "Buffs speed and damage.",
+        "name": "Grappling Hook",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "Gives a weak buff to every stat, drops when killing an enemy; consumable.",
+        "name": "Experience",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "Gives a buff to every stat, drops when killing an enemy; consumable.",
+        "name": "Packed Experience",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "Gives a strong buff to every stat, drops when killing an enemy; consumable.",
+        "name": "Dense Experience",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "Wings let you fly to new places, these special wings are attracted to devil rays confusing it for their former masters.",
+        "name": "Unholy Wings",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "Wings let you fly to new places, these special wings are dropped by Dragons.",
+        "name": "Scaly Wings",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "Wings let you fly to new places, these special wings are dropped by Solar Flares.",
+        "name": "Photon Wings",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "Wings let you fly to new places, these special wings are dropped by Sky Sorcerers.",
+        "name": "Crystal Wings",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "Wings let you fly to new places, these special wings are dropped by Hallowed Creatures.",
+        "name": "Holy Wings",
+        "price": 0
+    },
+    {
+        "bought": 500,
+        "category": "accessory",
+        "description": "It's a prickly shield, breaks fairly easily.",
+        "name": "Cactus Shield",
+        "price": 100,
+        "sold": 500
+    },
+    {
+        "bought": 500,
+        "category": "accessory",
+        "description": "Prevents some attacks from going first, however it is weak to strong attacks.",
+        "name": "Shield",
+        "price": 60,
+        "sold": 500
+    },
+    {
+        "bought": 5000,
+        "category": "accessory",
+        "description": "Gives extra health; consumable.",
+        "name": "Bread Bundle",
+        "price": 20,
+        "sold": 5000
+    },
+    {
+        "category": "accessory",
+        "description": "You can feel the raw power coming from this gauntlet.",
+        "name": "Gauntlet",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "A special bell that regenerates your health.",
+        "name": "Heal Bell",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "You may get some strange looks bringing this into a fight, but the only damage that will go through this is emotional.",
+        "name": "Portable Wall",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "\"Mystify, mislead, and surprise the enemy\" - Sun Tzu",
+        "name": "Binoculars",
+        "price": 0
+    },
+    {
+        "bought": 100,
+        "category": "accessory",
+        "description": "An impressive piece of old jewelry. Loses hp but increases defense and damage.",
+        "name": "Gold Bracelet",
+        "price": 450,
+        "sold": 100
+    },
+    {
+        "bought": 500,
+        "category": "accessory",
+        "description": "Made from bones, this was a common piece of jewelry long long ago.",
+        "name": "Bone Ring",
+        "price": 50,
+        "sold": 500
+    },
+    {
+        "bought": 5000,
+        "category": "accessory",
+        "description": "Whenever your weapon or armor would break, this gets used instead; one time use.",
+        "name": "Silk Cloth",
+        "price": 1000,
+        "sold": 5000
+    },
+    {
+        "bought": 2500,
+        "category": "accessory",
+        "description": "The only way for us puny humans to use magic weapons, this is crystallised magic; consumable.",
+        "name": "Mana Crystal",
+        "price": 500,
+        "sold": 2500
+    },
+    {
+        "category": "accessory",
+        "description": "Reduces incoming magic damage.",
+        "name": "Magic Guard",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "An extra silky string! Use this and your fishing line will never break.",
+        "name": "Silky String",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "Ew! Buffs fishing strength.",
+        "name": "Chum",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "Allows you to fish in lava!",
+        "name": "Lavaproof Fishing Hook",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "Buffs double ore chance.",
+        "name": "Mining Charm",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "This strange indestructible coin makes its holder extra lucky!",
+        "name": "Lucky Coin",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "Buffs all types of damage; consumable.",
+        "name": "Strength Potion",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "Doubles piercing damage; consumable.",
+        "name": "Cactus Potion",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "Buffs blunt damage and defense; consumable.",
+        "name": "Iron Potion",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "Triples defense, but halves speed and halves attack; consumable.",
+        "name": "Turtle Master Potion",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "Doubles defense, but halves speed; consumable.",
+        "name": "Beetle Master Potion",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "Boosts double ore chance; consumable.",
+        "name": "Mining Potion",
+        "price": 0
+    },
+    {
+        "category": "accessory",
+        "description": "Boosts fishing power and only consumes less bait; consumable.",
+        "name": "Fishing Potion",
+        "price": 0
+    },
+    {
+        "bought": 25000,
+        "category": "arrow",
+        "description": "A cheap arrow, superiory archery often was the main reason for success in ancient battles.",
+        "name": "Wooden Arrow",
+        "price": 1,
+        "sold": 25000
+    },
+    {
+        "bought": 15000,
+        "category": "arrow",
+        "description": "A sharp arrow, superiory archery often was the main reason for success in ancient battles.",
+        "name": "Bone Arrow",
+        "price": 3,
+        "sold": 15000
+    },
+    {
+        "bought": 5000,
+        "category": "arrow",
+        "description": "An expensive arrow, superiory archery often was the main reason for success in ancient battles.",
+        "name": "Emerald Arrow",
+        "price": 90,
+        "sold": 5000
+    },
+    {
+        "category": "rocket",
+        "description": "Once you have mastered rocketry, its time to blow through some armor!",
+        "name": "Armor Penetrating Rocket",
+        "price": 0
+    },
+    {
+        "category": "rocket",
+        "description": "Once you have mastered rocketry, its time for a massive explosion!",
+        "name": "Explosive Rocket",
+        "price": 0
+    },
+    {
+        "category": "cometfragment",
+        "description": "A celestial fragment, can be crafted into various weapons and armors, as well as used as ammo.",
+        "name": "Comet Fragment",
+        "price": 0
+    },
+    {
+        "bought": 10000,
+        "category": "bait",
+        "description": "Eww a worm. Can be used as bait.",
+        "name": "Worm",
+        "price": 5,
+        "sold": 10000
+    },
+    {
+        "bought": 2000,
+        "category": "bait",
+        "description": "A nice juicy fruit found in jungles. Can be used as bait.",
+        "name": "Mango",
+        "price": 10,
+        "sold": 2000
+    },
+    {
+        "bought": 2000,
+        "category": "bait",
+        "description": "Hey guys, welcome back to another scicraft episode!",
+        "name": "Ilmango",
+        "price": 100,
+        "sold": 2000
+    },
+    {
+        "bought": 1000,
+        "category": "bait",
+        "description": "Ew who eats raw fish. Can be used as bait",
+        "name": "Raw Cod",
+        "price": 10,
+        "sold": 1000
+    },
+    {
+        "bought": 1000,
+        "category": "bait",
+        "description": "Ew who eats raw fish. Can be used as bait.",
+        "name": "Raw Salmon",
+        "price": 20,
+        "sold": 1000
+    },
+    {
+        "bought": 1000,
+        "category": "bait",
+        "description": "Is this safe to eat? Can be used as bait.",
+        "name": "Pufferfish",
+        "price": 100,
+        "sold": 1000
+    },
+    {
+        "category": "bait",
+        "description": "Mommy can we get one? Good bait.",
+        "name": "Goldfish",
+        "price": 0
+    },
+    {
+        "category": "bait",
+        "description": "Not to be confused with the elusive Gold Gold Goldfish. Top tier bait.",
+        "name": "Gold Goldfish",
+        "price": 0
+    },
+    {
+        "bought": 1000,
+        "category": "bait",
+        "description": "A small piece of expensive squid meat. Top tier bait.",
+        "name": "Squid",
+        "price": 200,
+        "sold": 1000
+    },
+    {
+        "bought": 500,
+        "category": "bait",
+        "description": "Oo la la! Top tier dinner, top tier bait.",
+        "name": "Seafood Dinner",
+        "price": 15000,
+        "sold": 500
+    },
+    {
+        "bought": 250,
+        "category": "bait",
+        "description": "A small piece of squid meat stuffed full with emeralds, if it wasn't expensive before it definitely is now. Top tier bait.",
+        "name": "Emerald Squid",
+        "price": 9200,
+        "sold": 250
+    },
+    {
+        "bought": 100,
+        "category": "bait",
+        "description": "This worm is living lavishly that's for sure. Top tier bait.",
+        "name": "Netherite Worm",
+        "price": 20000,
+        "sold": 100
+    },
+    {
+        "bought": 500,
+        "category": "bait",
+        "description": "A worm infused with magic. Super bait.",
+        "name": "Glowing Worm",
+        "price": 1000,
+        "sold": 500
+    },
+    {
+        "bought": 500,
+        "category": "bait",
+        "description": "A fish that learnt to fly, can be made with magic. Super bait.",
+        "name": "Flying Fish",
+        "price": 5000,
+        "sold": 500
+    },
+    {
+        "bought": 250,
+        "category": "bait",
+        "description": "A cod infused with magic. Super bait.",
+        "name": "Glowing Cod",
+        "price": 10000,
+        "sold": 250
+    },
+    {
+        "bought": 250,
+        "category": "bait",
+        "description": "I think it's just a normal shrimp. Super bait.",
+        "name": "Shrimp Shrimp",
+        "price": 25000,
+        "sold": 250
+    },
+    {
+        "bought": 250,
+        "category": "bait",
+        "description": "A squid that learnt to fly. Super bait.",
+        "name": "Flying Squid",
+        "price": 50000,
+        "sold": 250
+    },
+    {
+        "bought": 100,
+        "category": "bait",
+        "description": "An octopus infused with magic. Super bait.",
+        "name": "Blue Ringed Octopus",
+        "price": 100000,
+        "sold": 100
+    },
+    {
+        "bought": 100,
+        "category": "bait",
+        "description": "This alien species evolved to protect their comet, not to be confused with starfish. Super bait.",
+        "name": "Star Fish",
+        "price": 250000,
+        "sold": 100
+    },
+    {
+        "bought": 100,
+        "category": "bait",
+        "description": "This ray flew from hell. Super bait.",
+        "name": "Devil Ray",
+        "price": 500000,
+        "sold": 100
+    }
+]

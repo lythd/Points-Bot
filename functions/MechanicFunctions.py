@@ -1293,7 +1293,6 @@ def energyproducedbyplot(user):
                     energies[p] = 0
             else:
                 energies[p] = 0
-    addalltobag(user,resources)
     return energies
 
 def energyconsumedbyplot(user):
@@ -1322,7 +1321,6 @@ def energyconsumedbyplot(user):
                     energies[p] = 0
             else:
                 energies[p] = 0
-    addalltobag(user,resources)
     return energies
 
 def doesplothaveenoughenergy(user,plot):

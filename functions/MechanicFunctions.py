@@ -1171,7 +1171,7 @@ def getplotresource(user,plot,resource):
 
 def getplotnumresources(user,plot):
     count = 0
-    for k,v in getplotnumresources(user,plot).items():
+    for k,v in getplotresources(user,plot).items():
         count += v
     return count
 

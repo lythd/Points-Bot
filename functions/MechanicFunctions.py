@@ -1177,7 +1177,6 @@ def getplotnumresources(user,plot):
 
 def getplotmachines(user,plot):
     users = getUsers()
-    resource = format(resource)
     try:
         return users[str(user.id)]["plots"][plot]["machines"]
     except:

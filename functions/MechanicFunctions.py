@@ -1270,6 +1270,7 @@ def energyproducedbyplot(user):
     for p in plots.keys():
         if p == "storage":
             continue
+        energies[p] = 0
         for m,num in getplotmachines(user,p).items():
             conditions = True
             power = getPlotmachines()[m]["power"]
@@ -1288,11 +1289,7 @@ def energyproducedbyplot(user):
                         condition = False
                         break
                 if conditions:
-                    energies[p] = -power
-                else:
-                    energies[p] = 0
-            else:
-                energies[p] = 0
+                    energies[p] -= power
     return energies
 
 def energyconsumedbyplot(user):
@@ -1302,6 +1299,7 @@ def energyconsumedbyplot(user):
     for p in plots.keys():
         if p == "storage":
             continue
+        energies[p] = 0
         for m,num in getplotmachines(user,p).items():
             conditions = True
             power = getPlotmachines()[m]["power"]
@@ -1316,11 +1314,7 @@ def energyconsumedbyplot(user):
                         condition = False
                         break
                 if conditions:
-                    energies[p] = power
-                else:
-                    energies[p] = 0
-            else:
-                energies[p] = 0
+                    energies[p] += power
     return energies
 
 def doesplothaveenoughenergy(user,plot):

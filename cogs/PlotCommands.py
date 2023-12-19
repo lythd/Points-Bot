@@ -111,6 +111,28 @@ class PlotCommands(commands.Cog):
         else:
             await interaction.response.send_message(embed=discord.Embed(title = "**You have no plots there.**",color=colorError()))
     
+    @app_commands.command(description="Buys a specified amount of plots at a location.")
+    @app_commands.describe(location = "Location")
+    @app_commands.describe(amount = "Amount")
+    async def buyplot(self, interaction: discord.Interaction, location: str, amount:int = 1):
+        user = interaction.user
+        open_account(user)
+        plots = getplots(user)
+        name = format(location)
+        if valid_plot(name):
+            if getMap()["locations"][name]["controller"] != "Blue Republic":
+                await interaction.response.send_message(embed=discord.Embed(title = "**You can only buy plots in the Blue Republic. If the land your plot is on is taken so will your plots be.**",color=colorError()))
+                return
+            price = 1000 * amount
+            if price < update_bank(user):
+                await interaction.response.send_message(embed=discord.Embed(title = "**You don't have enough money in your wallet to buy** " + format_number(amount) + " **plots. You would need** " + format_number(price) + " **coins.**",color=colorError()))
+                return
+            update_bank(user,-price)
+            addplots(user,name,amount)
+            await interaction.response.send_message(embed=discord.Embed(title = "**You just bought** " + format_number(amount) + " **plots in** " + location + " **for** " + format_number(price) + " **coins.**",color=colorTransaction()))
+        else:
+            await interaction.response.send_message(embed=discord.Embed(title = "**That is not a valid location.**",color=colorError()))
+    
     
     
     

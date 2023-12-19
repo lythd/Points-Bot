@@ -780,12 +780,18 @@
         "price": 0
     },
     {
-        "bought": 100000,
         "category": "industrial",
-        "description": "A basic item for making machines.",
-        "name": "Copper Wiring",
-        "price": 10,
-        "sold": 100000
+        "description": "A useful way to transfer power between its source and its sink.",
+        "name": "Charged Battery",
+        "price": 0
+    },
+    {
+        "bought": 10000,
+        "category": "industrial",
+        "description": "A useful way to transfer power between its source and its sink.",
+        "name": "Battery",
+        "price": 40,
+        "sold": 10000
     },
     {
         "bought": 40000,

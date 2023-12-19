@@ -1,0 +1,499 @@
+{
+	"Coal Burner": {
+		"description": "All this coal Santa gave me will come in handy. Good source of power wherever there's coal.",
+		"power": -10,
+		"consumed": {
+			"coal": 10
+		},
+		"extracted": {},
+		"materials": {
+			"generator": 1,
+			"stone": 10
+		}
+	},
+	"Oil Burner": {
+		"description": "Surely this will have no unintended consequences. Good source of power wherever there's oil.",
+		"power": -10,
+		"consumed": {
+			"lampoil": 10
+		},
+		"extracted": {},
+		"materials": {
+			"generator": 1,
+			"chain": 10
+		}
+	},
+	"Solar Panel": {
+		"description": "Powered from the SUN! Good source of power wherever there's harsh sunlight.",
+		"power": -1,
+		"consumed": {
+			"sun": 1
+		},
+		"extracted": {},
+		"materials": {
+			"generator": 1,
+			"glass": 10,
+			"diamond": 1
+		}
+	},
+	"Windmill": {
+		"description": "Fossil fuels are obsolete! Good source of power wherever there's strong winds.",
+		"power": -1,
+		"consumed": {
+			"wind": 1
+		},
+		"extracted": {},
+		"materials": {
+			"generator": 1,
+			"tinbar": 10
+		}
+	},
+	"Geothermal Power Plant": {
+		"description": "Powered from the EARTH! Very reliable as it works anywhere, but is outclassed by the others.",
+		"power": -10,
+		"consumed": {},
+		"extracted": {},
+		"materials": {
+			"generator": 3,
+			"bronzebar": 25
+		}
+	},
+	"Battery Station": { 
+		"description": "If there's no good source of power, why not bring it in from somewhere else?",
+		"power": -10,
+		"consumed": {
+			"chargedbattery": 10
+		},
+		"extracted": {
+			"battery": 10
+		},
+		"materials": {
+			"copperwiring": 5,
+			"ironbar": 5
+		}
+	},
+	"Battery Charger": { 
+		"description": "If you've got extra power, why not send it somewhere else?",
+		"power": 10,
+		"consumed": {
+			"battery": 10
+		},
+		"extracted": {
+			"chargedbattery": 10
+		},
+		"materials": {
+			"copperwiring": 5,
+			"ironbar": 5
+		}
+	},
+	"Tree Chopper 9000": {
+		"description": "Chop down tree yes vroom.",
+		"power": 3,
+		"consumed": {},
+		"extracted": {
+			"wood": 10
+		},
+		"materials": {
+			"diamondsaw": 1,
+			"basicmachinepart": 1,
+			"ironbar": 5
+		}
+	},
+	"Tree Chopper 9001": {
+		"description": "Chop down nether tree yes vroom.",
+		"power": 3,
+		"consumed": {},
+		"extracted": {
+			"crimsonwood": 9
+		},
+		"materials": {
+			"diamondsaw": 1,
+			"basicmachinepart": 1,
+			"bronzebar": 5
+		}
+	},
+	"Excavator": {
+		"description": "Straight from Bob the Builder.",
+		"power": 4,
+		"consumed": {},
+		"extracted": {
+			"dirt": 10
+		},
+		"materials": {
+			"basicmachinepart": 1,
+			"tinbar": 25
+		}
+	},
+	"Automatic Plastic Shovel": {
+		"description": "It's like a plastic shovel, but automatic.",
+		"power": 1,
+		"consumed": {},
+		"extracted": {
+			"sand": 3
+		},
+		"materials": {
+			"basicmachinepart": 1,
+			"rubber": 15
+		}
+	},
+	"Jerry's Truck": {
+		"description": "Idk how I'm gonna move all this ice, I'll just call Jerry.",
+		"power": 1,
+		"consumed": {},
+		"extracted": {
+			"ice": 2
+		},
+		"materials": {
+			"rubber": 5,
+			"basicmachinepart": 1,
+			"ironbar": 25
+		}
+	},
+	"Blackstone Quarry": {
+		"description": "Nothing preserves the landscape better than a giant hole in the ground. Though the nether is ugly anyway.",
+		"power": 25,
+		"consumed": {},
+		"extracted": {
+			"blackstone": 75
+		},
+		"materials": {
+			"stonepickaxe": 1,
+			"basicmachinepart": 10,
+			"wood": 250
+		}
+	},
+	"Stone Quarry": {
+		"description": "Nothing preserves the landscape better than a giant hole in the ground.",
+		"power": 25,
+		"consumed": {},
+		"extracted": {
+			"stone": 100
+		},
+		"materials": {
+			"stonepickaxe": 1,
+			"basicmachinepart": 10,
+			"wood": 250
+		}
+	},
+	"Early Bird": {
+		"description": "Early bird gets the worm!",
+		"power": 0,
+		"consumed": {
+			"worm": 1
+		},
+		"extracted": {
+			"worm": 1
+		},
+		"materials": {
+			"egg": 8
+		}
+	},
+	"Robotic Early Bird": {
+		"description": "I guess a robotic early bird gets there first?",
+		"power": 1,
+		"consumed": {},
+		"extracted": {
+			"worm": 2
+		},
+		"materials": {
+			"tinbar": 5,
+			"goldwiring": 3
+		}
+	},
+	"Chicken Coop": {
+		"description": "Just a bunch of chickens in a chicken coop.",
+		"power": 4,
+		"consumed": {},
+		"extracted": {
+			"egg": 10
+		},
+		"materials": {
+			"wood": 40,
+			"bronzebar": 5,
+			"egg": 80
+		}
+	},
+	"Automatic Cactus Farm": {
+		"description": "Cactus string sand.",
+		"power": 1,
+		"consumed": {},
+		"extracted": {
+			"cactus": 2
+		},
+		"materials": {
+			"cactus": 10,
+			"basicmachinepart": 1,
+			"sand": 50
+		}
+	},
+	"Automatic Sugar Cane Farm": {
+		"description": "Sugarcane pillar sugarcane brick wall.",
+		"power": 1,
+		"consumed": {},
+		"extracted": {
+			"sugarcane": 2
+		},
+		"materials": {
+			"sugarcane": 10,
+			"basicmachinepart": 1,
+			"sand": 50
+		}
+	},
+	"Mango Tree Shaker": {
+		"description": "Mango on tree, shake tree, mango in hand.",
+		"power": 2,
+		"consumed": {},
+		"extracted": {
+			"mango": 5
+		},
+		"materials": {
+			"mango": 10,
+			"basicmachinepart": 1,
+			"wood": 50
+		}
+	},
+	"Automatic Water Melon Farm": {
+		"description": "Unlike their pumpkin counterpart, melon farms are automatic!",
+		"power": 1,
+		"consumed": {},
+		"extracted": {
+			"watermelon": 1
+		},
+		"materials": {
+			"watermelon": 10,
+			"basicmachinepart": 1,
+			"sand": 50
+		}
+	},
+	"Giant Pumpkin Farm": {
+		"description": "Unlike their melon counterpart, pumpkin farms are giant!",
+		"power": 0,
+		"consumed": {},
+		"extracted": {
+			"pumpkin": 16,
+			"pumpkinseed": 4
+		},
+		"materials": {
+			"pumpkinseed": 20
+		}
+	},
+	"Alien Crop Circle": {
+		"description": "Offer a sacrifice to the aliens and watch as a giant circle of wheat gets harvested.",
+		"power": 0,
+		"consumed": {},
+		"extracted": {
+			"wheat": 100
+		},
+		"materials": {
+			"bone": 100,
+			"manacrystal": 1
+		}
+	},
+	"Baconator": {
+		"description": "The baconator is Wendy's key to success.",
+		"power": 3,
+		"consumed": {},
+		"extracted": {
+			"bacon": 10
+		},
+		"materials": {
+			"ironsword": 1,
+			"basicmachinepart": 1,
+			"wood": 50
+		}
+	},
+	"Wooly Wheel of Doom": {
+		"description": "It's a giant wooden wheel, with sheep on it, and they die.",
+		"power": 3,
+		"consumed": {},
+		"extracted": {
+			"mutton": 10
+		},
+		"materials": {
+			"ironsword": 1,
+			"basicmachinepart": 1,
+			"wood": 50
+		}
+	},
+	"Cow Chamber": {
+		"description": "You don't wanna know what happens in the cow chamber.",
+		"power": 3,
+		"consumed": {},
+		"extracted": {
+			"filetmignon": 10
+		},
+		"materials": {
+			"ironsword": 1,
+			"basicmachinepart": 1,
+			"wood": 50
+		}
+	},
+	"Sheep Pyre": {
+		"description": "Just burn the sheep.",
+		"power": 0,
+		"consumed": {
+			"coal": 5
+		},
+		"extracted": {
+			"mutton": 10
+		},
+		"materials": {
+			"wood": 50
+		}
+	},
+	"The Deluxe Fish Slayer Composite Pro": {
+		"description": "The best way to fish.",
+		"power": 10,
+		"consumed": {},
+		"extracted": {
+			"rawcod": 10
+		},
+		"materials": 
+			"string": 50,
+			"ironbar": 5,
+			"basicmachinepart": 1
+		}
+	},
+	"Rubber Tapper": {
+		"description": "Just put this in a tree and boom.",
+		"power": 0,
+		"consumed": {},
+		"extracted": {
+			"rubber": 1
+		},
+		"materials": 
+			"wood": 5
+		}
+	},
+	"Volcano Vanquisher": {
+		"description": "Good source of magma.",
+		"power": 3,
+		"consumed": {},
+		"extracted": {
+			"magmablock": 10
+		},
+		"materials": 
+			"ironpickaxe": 1,
+			"bronzebar": 5,
+			"basicmachinepart": 1
+		}
+	},
+	"Vacuum Cleaner": {
+		"description": "How would you gather clouds? I guess you could suck them with a vacuum cleaner?",
+		"power": 1,
+		"consumed": {},
+		"extracted": {
+			"cloud": 2
+		},
+		"materials":
+			"tinbar": 15,
+			"basicmachinepart": 1
+		}
+	},
+	"Loom": {
+		"description": "Make your silk with a loom!",
+		"power": 50,
+		"consumed": {},
+		"extracted": {
+			"silkcloth": 1
+		},
+		"materials":
+			"string": 25,
+			"wood": 15,
+			"basicmachinepart": 1
+		}
+	},
+	"Silicon Extractor": {
+		"description": "Raw silicon straight from the ground.",
+		"power": 3,
+		"consumed": {},
+		"extracted": {
+			"rawsilicon": 10
+		},
+		"materials":
+			"ironbar": 25,
+			"basicmachinepart": 1
+		}
+	},
+	"Oil Drilling Rig": {
+		"description": "Keep hidden from America.",
+		"power": 7,
+		"consumed": {},
+		"extracted": {
+			"lampoil": 10
+		},
+		"materials":
+			"copperbar": 25,
+			"basicmachinepart": 3
+		}
+	},
+	"Deep Quarry": {
+		"description": "Deeper..deeper..deeper.",
+		"power": 200,
+		"consumed": {},
+		"extracted": {
+			"stone": 100,
+			"coal": 25,
+			"ironore": 10,
+			"silverore": 5,
+			"goldore": 3,
+			"diamond": 2,
+			"emerald": 1
+		},
+		"materials": {
+			"diamondpickaxe": 1,
+			"basicmachinepart": 10,
+			"wood": 250
+		}
+	},
+	"Sentient Minecart": {
+		"description": "Don't even ask me how this works.",
+		"power": 250,
+		"consumed": {},
+		"extracted": {
+			"diamond": 2,
+			"emerald": 1
+		},
+		"materials": {
+			"diamondpickaxe": 1,
+			"basicmachinepart": 1,
+			"ironbar": 5
+		}
+	},
+	"Goblin Miner": {
+		"description": "Why mine yourself if a goblin can mine for you!",
+		"power": 0,
+		"consumed": {
+			"goldore": 3,
+			"diamond": 1
+		},
+		"extracted": {
+			"diamond": 1,
+			"emerald": 1
+		},
+		"materials": {
+			"diamondpickaxe": 1,
+			"manacrystal": 1,
+			"goldore": 5,
+			"mutton": 5
+		}
+	},
+	"Villager Miner": {
+		"description": "Why mine yourself if a villager can mine for you!",
+		"power": 0,
+		"consumed": {
+			"mutton": 25
+		},
+		"extracted": {
+			"goldore": 3,
+			"diamond": 2,
+			"emerald": 1
+		},
+		"materials": {
+			"diamondpickaxe": 1,
+			"manacrystal": 1,
+			"emerald": 1,
+			"mutton": 5
+		}
+	}
+}

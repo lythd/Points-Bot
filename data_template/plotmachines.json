@@ -1,5 +1,6 @@
 {
-	"Coal Burner": {
+	"coalburner": {
+		"name": "Coal Burner",
 		"description": "All this coal Santa gave me will come in handy. Good source of power wherever there's coal.",
 		"power": -10,
 		"consumed": {
@@ -11,7 +12,8 @@
 			"stone": 10
 		}
 	},
-	"Oil Burner": {
+	"oilburner": {
+		"name": "Oil Burner",
 		"description": "Surely this will have no unintended consequences. Good source of power wherever there's oil.",
 		"power": -10,
 		"consumed": {
@@ -23,7 +25,8 @@
 			"chain": 10
 		}
 	},
-	"Solar Panel": {
+	"solarpanel": {
+		"name": "Solar Panel",
 		"description": "Powered from the SUN! Good source of power wherever there's harsh sunlight.",
 		"power": -1,
 		"consumed": {
@@ -36,7 +39,8 @@
 			"diamond": 1
 		}
 	},
-	"Windmill": {
+	"windmill": {
+		"name": "Windmill",
 		"description": "Fossil fuels are obsolete! Good source of power wherever there's strong winds.",
 		"power": -1,
 		"consumed": {
@@ -48,7 +52,8 @@
 			"tinbar": 10
 		}
 	},
-	"Geothermal Power Plant": {
+	"geothermalpowerplant": {
+		"name": "Geothermal Power Plant",
 		"description": "Powered from the EARTH! Very reliable as it works anywhere, but is outclassed by the others.",
 		"power": -10,
 		"consumed": {},
@@ -58,7 +63,8 @@
 			"bronzebar": 25
 		}
 	},
-	"Battery Station": { 
+	"batterystation": { 
+		"name": "Battery Station",
 		"description": "If there's no good source of power, why not bring it in from somewhere else?",
 		"power": -10,
 		"consumed": {
@@ -72,7 +78,8 @@
 			"ironbar": 5
 		}
 	},
-	"Battery Charger": { 
+	"batterycharger": { 
+		"name": "Battery Charger",
 		"description": "If you've got extra power, why not send it somewhere else?",
 		"power": 10,
 		"consumed": {
@@ -86,7 +93,8 @@
 			"ironbar": 5
 		}
 	},
-	"Tree Chopper 9000": {
+	"treechopper9000": {
+		"name": "Tree Chopper 9000",
 		"description": "Chop down tree yes vroom.",
 		"power": 3,
 		"consumed": {},
@@ -99,7 +107,8 @@
 			"ironbar": 5
 		}
 	},
-	"Tree Chopper 9001": {
+	"treechopper9001": {
+		"name": "Tree Chopper 9001",
 		"description": "Chop down nether tree yes vroom.",
 		"power": 3,
 		"consumed": {},
@@ -112,7 +121,8 @@
 			"bronzebar": 5
 		}
 	},
-	"Excavator": {
+	"excavator": {
+		"name": "Excavator",
 		"description": "Straight from Bob the Builder.",
 		"power": 4,
 		"consumed": {},
@@ -124,7 +134,8 @@
 			"tinbar": 25
 		}
 	},
-	"Automatic Plastic Shovel": {
+	"automaticplasticshovel": {
+		"name": "Automatic Plastic Shovel",
 		"description": "It's like a plastic shovel, but automatic.",
 		"power": 1,
 		"consumed": {},
@@ -136,7 +147,8 @@
 			"rubber": 15
 		}
 	},
-	"Jerry's Truck": {
+	"jerrystruck": {
+		"name": "Jerry's Truck",
 		"description": "Idk how I'm gonna move all this ice, I'll just call Jerry.",
 		"power": 1,
 		"consumed": {},
@@ -149,7 +161,8 @@
 			"ironbar": 25
 		}
 	},
-	"Blackstone Quarry": {
+	"blackstonequarry": {
+		"name": "Blackstone Quarry",
 		"description": "Nothing preserves the landscape better than a giant hole in the ground. Though the nether is ugly anyway.",
 		"power": 25,
 		"consumed": {},
@@ -162,7 +175,8 @@
 			"wood": 250
 		}
 	},
-	"Stone Quarry": {
+	"stonequarry": {
+		"name": "Stone Quarry",
 		"description": "Nothing preserves the landscape better than a giant hole in the ground.",
 		"power": 25,
 		"consumed": {},
@@ -175,7 +189,8 @@
 			"wood": 250
 		}
 	},
-	"Early Bird": {
+	"earlybird": {
+		"name": "Early Bird",
 		"description": "Early bird gets the worm!",
 		"power": 0,
 		"consumed": {
@@ -188,7 +203,8 @@
 			"egg": 8
 		}
 	},
-	"Robotic Early Bird": {
+	"roboticearlybird": {
+		"name": "Robotic Early Bird",
 		"description": "I guess a robotic early bird gets there first?",
 		"power": 1,
 		"consumed": {},
@@ -200,7 +216,8 @@
 			"goldwiring": 3
 		}
 	},
-	"Chicken Coop": {
+	"chickencoop": {
+		"name": "Chicken Coop",
 		"description": "Just a bunch of chickens in a chicken coop.",
 		"power": 4,
 		"consumed": {},
@@ -213,7 +230,8 @@
 			"egg": 80
 		}
 	},
-	"Automatic Cactus Farm": {
+	"automaticcactusfarm": {
+		"name": "Automatic Cactus Farm",
 		"description": "Cactus string sand.",
 		"power": 1,
 		"consumed": {},
@@ -226,7 +244,8 @@
 			"sand": 50
 		}
 	},
-	"Automatic Sugar Cane Farm": {
+	"automaticsugarcanefarm": {
+		"name": "Automatic Sugar Cane Farm",
 		"description": "Sugarcane pillar sugarcane brick wall.",
 		"power": 1,
 		"consumed": {},
@@ -239,7 +258,8 @@
 			"sand": 50
 		}
 	},
-	"Mango Tree Shaker": {
+	"mangotreeshaker": {
+		"name": "Mango Tree Shaker",
 		"description": "Mango on tree, shake tree, mango in hand.",
 		"power": 2,
 		"consumed": {},
@@ -252,7 +272,8 @@
 			"wood": 50
 		}
 	},
-	"Automatic Water Melon Farm": {
+	"automaticwatermelonfarm": {
+		"name": "Automatic Water Melon Farm",
 		"description": "Unlike their pumpkin counterpart, melon farms are automatic!",
 		"power": 1,
 		"consumed": {},
@@ -265,7 +286,8 @@
 			"sand": 50
 		}
 	},
-	"Giant Pumpkin Farm": {
+	"giantpumpkinfarm": {
+		"name": "Giant Pumpkin Farm",
 		"description": "Unlike their melon counterpart, pumpkin farms are giant!",
 		"power": 0,
 		"consumed": {},
@@ -277,7 +299,8 @@
 			"pumpkinseed": 20
 		}
 	},
-	"Alien Crop Circle": {
+	"aliencropcircle": {
+		"name": "Alien Crop Circle",
 		"description": "Offer a sacrifice to the aliens and watch as a giant circle of wheat gets harvested.",
 		"power": 0,
 		"consumed": {},
@@ -289,7 +312,8 @@
 			"manacrystal": 1
 		}
 	},
-	"Baconator": {
+	"baconator": {
+		"name": "Baconator",
 		"description": "The baconator is Wendy's key to success.",
 		"power": 3,
 		"consumed": {},
@@ -302,7 +326,8 @@
 			"wood": 50
 		}
 	},
-	"Wooly Wheel of Doom": {
+	"woolywheelofdoom": {
+		"name": "Wooly Wheel of Doom",
 		"description": "It's a giant wooden wheel, with sheep on it, and they die.",
 		"power": 3,
 		"consumed": {},
@@ -315,7 +340,8 @@
 			"wood": 50
 		}
 	},
-	"Cow Chamber": {
+	"cowchamber": {
+		"name": "Cow Chamber",
 		"description": "You don't wanna know what happens in the cow chamber.",
 		"power": 3,
 		"consumed": {},
@@ -328,7 +354,8 @@
 			"wood": 50
 		}
 	},
-	"Sheep Pyre": {
+	"sheeppyre": {
+		"name": "Sheep Pyre",
 		"description": "Just burn the sheep.",
 		"power": 0,
 		"consumed": {
@@ -341,7 +368,8 @@
 			"wood": 50
 		}
 	},
-	"The Deluxe Fish Slayer Composite Pro": {
+	"thedeluxefishslayercompositepro": {
+		"name": "The Deluxe Fish Slayer Composite Pro",
 		"description": "The best way to fish.",
 		"power": 10,
 		"consumed": {},
@@ -354,7 +382,8 @@
 			"basicmachinepart": 1
 		}
 	},
-	"Rubber Tapper": {
+	"rubbertapper": {
+		"name": "Rubber Tapper",
 		"description": "Just put this in a tree and boom.",
 		"power": 0,
 		"consumed": {},
@@ -365,7 +394,8 @@
 			"wood": 5
 		}
 	},
-	"Volcano Vanquisher": {
+	"volcanovanquisher": {
+		"name": "Volcano Vanquisher",
 		"description": "Good source of magma.",
 		"power": 3,
 		"consumed": {},
@@ -378,7 +408,8 @@
 			"basicmachinepart": 1
 		}
 	},
-	"Vacuum Cleaner": {
+	"vacuumcleaner": {
+		"name": "Vacuum Cleaner",
 		"description": "How would you gather clouds? I guess you could suck them with a vacuum cleaner?",
 		"power": 1,
 		"consumed": {},
@@ -390,7 +421,8 @@
 			"basicmachinepart": 1
 		}
 	},
-	"Loom": {
+	"loom": {
+		"name": "Loom",
 		"description": "Make your silk with a loom!",
 		"power": 50,
 		"consumed": {},
@@ -403,7 +435,8 @@
 			"basicmachinepart": 1
 		}
 	},
-	"Silicon Extractor": {
+	"siliconextractor": {
+		"name": "Silicon Extractor",
 		"description": "Raw silicon straight from the ground.",
 		"power": 3,
 		"consumed": {},
@@ -415,7 +448,8 @@
 			"basicmachinepart": 1
 		}
 	},
-	"Oil Drilling Rig": {
+	"oildrillingrig": {
+		"name": "Oil Drilling Rig",
 		"description": "Keep hidden from America.",
 		"power": 7,
 		"consumed": {},
@@ -427,7 +461,8 @@
 			"basicmachinepart": 3
 		}
 	},
-	"Deep Quarry": {
+	"deepquarry": {
+		"name": "deepquarry",
 		"description": "Deeper..deeper..deeper.",
 		"power": 200,
 		"consumed": {},
@@ -446,7 +481,8 @@
 			"wood": 250
 		}
 	},
-	"Sentient Minecart": {
+	"sentientminecart": {
+		"name": "Sentient Minecart",
 		"description": "Don't even ask me how this works.",
 		"power": 250,
 		"consumed": {},
@@ -460,7 +496,8 @@
 			"ironbar": 5
 		}
 	},
-	"Goblin Miner": {
+	"goblinminer": {
+		"name": "Goblin Miner",
 		"description": "Why mine yourself if a goblin can mine for you!",
 		"power": 0,
 		"consumed": {
@@ -478,7 +515,8 @@
 			"mutton": 5
 		}
 	},
-	"Villager Miner": {
+	"villagerminer": {
+		"name": "Villager Miner",
 		"description": "Why mine yourself if a villager can mine for you!",
 		"power": 0,
 		"consumed": {

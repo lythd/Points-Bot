@@ -28,6 +28,7 @@ _banned = None
 _ores = None
 _mobs = None
 _resources = None
+_plotmachines = None
 _map = None
 
 
@@ -45,7 +46,7 @@ _map = None
 ### SPECIAL ###
 
 def refresh():
-    global _users, _items, _itemsog, _foods, _pickaxes, _rods, _weapons, _armor, _accessories, _ammo, _bait, _crafting, _brewing, _banned, _ores, _mobs, _resources, _map
+    global _users, _items, _itemsog, _foods, _pickaxes, _rods, _weapons, _armor, _accessories, _ammo, _bait, _crafting, _brewing, _banned, _ores, _mobs, _resources, _plotmachines, _map
     with open("data\\users.json",'r') as f:
         _users = json.load(f)
     with open("data\\items.json",'r') as f:
@@ -80,11 +81,13 @@ def refresh():
         _mobs = json.load(f)
     with open("data\\resources.json",'r') as f:
         _resources = json.load(f)
+    with open("data\\plotmachines.json",'r') as f:
+        _plotmachines = json.load(f)
     with io.open("data\\map.json",mode='r',encoding="utf-16") as f:
         _map = json.load(f)
         
 def update():
-    global _users, _items, _itemsog, _foods, _pickaxes, _rods, _weapons, _armor, _accessories, _ammo, _bait, _crafting, _brewing, _banned, _ores, _mobs, _resources, _map
+    global _users, _items, _itemsog, _foods, _pickaxes, _rods, _weapons, _armor, _accessories, _ammo, _bait, _crafting, _brewing, _banned, _ores, _mobs, _resources, _plotmachines, _map
     getUsers()
     getItems()
     getItemsOg()
@@ -102,6 +105,7 @@ def update():
     getOres()
     getMobs()
     getResources()
+    getPlotmachines()
     getMap()
     with open("data\\users.json",'w') as f:
         json.dump(_users,f,indent=4,sort_keys=True)
@@ -137,6 +141,8 @@ def update():
         json.dump(_mobs,f,indent=4,sort_keys=True)
     with open("data\\resources.json",'w') as f:
         json.dump(_resources,f,indent=4,sort_keys=True)
+    with open("data\\plotmachines.json",'w') as f:
+        json.dump(_plotmachines,f,indent=4,sort_keys=True)
     with io.open("data\\map.json",mode='w',encoding="utf-16") as f:
         json.dump(_map,f,indent=4,sort_keys=True)
 
@@ -265,6 +271,13 @@ def getResources():
             _resources = json.load(f)
     return _resources
 
+def getPlotmachines():
+    global _plotmachines
+    if _plotmachines == None:
+        with open("data\\plotmachines.json",'r') as f:
+            _plotmachines = json.load(f)
+    return _plotmachines
+
 def getMap():
     global _map
     if _map == None:
@@ -379,6 +392,12 @@ def writeResources():
     getResources()
     with open("data\\resources.json",'w') as f:
         json.dump(_resources,f,indent=4,sort_keys=True)
+
+def writePlotmachines():
+    global _plotmachines
+    getPlotmachines()
+    with open("data\\plotmachines.json",'w') as f:
+        json.dump(_plotmachines,f,indent=4,sort_keys=True)
 
 def writeMap():
     global _map

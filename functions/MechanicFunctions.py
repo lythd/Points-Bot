@@ -1079,7 +1079,7 @@ def addplots(user,plot,amount=1):
     plot = format(plot)
     resourcesMap = getMap()["locations"][plot]["resources"]
     resources = {}
-    for k,v in resourcesMap.enumerate():
+    for k,v in resourcesMap.items():
         resources[k] = parse_number(v)
     try:
         users[str(user.id)]["plots"][plot]["number"] += amount
@@ -1090,6 +1090,27 @@ def addplots(user,plot,amount=1):
             users[str(user.id)]["plots"][plot] = {"number":amount,"resources":resources,"machines":{}}
         except:
             users[str(user.id)]["plots"] = {plot:{"number":amount,"resources":resources,"machines":{}}}
+
+def valid_plot(plot_name):
+    try:
+        data = getMap()['locations'][format(plot_name)]
+    except:
+        return False
+    return True
+
+def valid_machine(machine_name):
+    pms = getPlotmachines()
+    for k in pms.keys():
+        if format(k) == format(item_name):
+            return True
+    return False
+
+def valid_resource(resource_name):
+    resources = getResources()
+    for k in resources.keys():
+        if format(k) == format(item_name):
+            return True
+    return False
     
 def addplotmachines(user,plot,machine,amount=1):
     users = getUsers()
@@ -1144,6 +1165,12 @@ def getplotresource(user,plot,resource):
     except:
         return 0
 
+def getplotnumresources(user,plot):
+    count = 0
+    for k,v in getplotnumresources(user,plot).items():
+        count += v
+    return count
+
 def getplotmachines(user,plot):
     users = getUsers()
     resource = format(resource)
@@ -1161,11 +1188,19 @@ def getplotmachine(user,plot,machine):
     except:
         return 0
 
-def collectdailyplots(user):
+def getplotnummachines(user,plot):
+    count = 0
+    for k,v in getplotmachines(user,plot).items():
+        count += v
+    return count
+
+def collectplotsbyhand(user):
     plots = getplots(user)
     resourcesLimit = getResources()
     resources = {}
     for p in plots.keys():
+        if p == "storage":
+            continue
         for r in getplotresources(user,p).keys():
             num = getplotresource(user,p,r)
             if num > resourcesLimit[r]: num = resourcesLimit[r]
@@ -1176,3 +1211,115 @@ def collectdailyplots(user):
                 resources[r] = num
     addalltobag(user,resources)
     return resources
+
+def collectplotsbymachine(user):
+    plots = getplots(user)
+    extracted = {}
+    consumed = {}
+    for p in plots.keys():
+        if p == "storage" or not doesplothaveenoughenergy(user,p):
+            continue
+        resourcesLimit = {}
+        for m,num in getplotmachines(user,p).items():
+            conditions = True
+            for k,v in getPlotmachines()[m]["consumed"].items():
+                if k == "battery": #battery : check from bag not from plot resources, and have to check total so far since bag is for everything, order is arbitrary
+                    if amountinbag(user,k) < v*num:
+                        condition = False
+                        break
+                elif k == "chargedbattery": #chargedbattery : check from bag not from plot resources, and have to check total so far since bag is for everything, order is arbitrary
+                    if amountinbag(user,k) < v*num:
+                        condition = False
+                        break
+                elif getplotresource(p,k) < v*num: #otherwise: just work as normal checking the plot resources
+                    condition = False
+                    break
+            if condition:
+                for k,v in getPlotmachines()[m]["consumed"].items():
+                    try:
+                        consumed[k] += v*num
+                    except:
+                        consumed[k] = v*num
+                    if k == "battery" or k == "chargedbattery": removefrombag(user,k,v*num) # batteries get consumed from bag
+                    else: removeplotresources(user,p,k,v*num) # resources get consumed from plot
+                for k,v in getPlotmachines()[m]["extracted"].items():
+                    try:
+                        resourcesLimit[k] += v*num
+                    except:
+                        resourcesLimit[k] = v*num
+        for r in getplotresources(user,p).keys():
+            num = getplotresource(user,p,r)
+            if num > resourcesLimit[r]: num = resourcesLimit[r]
+            removeplotresources(user,p,r,num)
+            try:
+                extracted[r] += num
+            except:
+                extracted[r] = num
+    addalltobag(user,extracted)
+    return (extracted,consumed)
+
+def energyproducedbyplot(user):
+    plots = getplots(user)
+    energies = {}
+    batteries = 0
+    for p in plots.keys():
+        if p == "storage":
+            continue
+        for m,num in getplotmachines(user,p).items():
+            conditions = True
+            power = getPlotmachines()[m]["power"]
+            if power < 0:
+                for k,v in getPlotmachines()[m]["consumed"].items():
+                    if k == "sun": #sun : don't consume the non-existent sun item, and multiply power by sun value in the location
+                        power *= getMap()["locations"][p]["sun"]
+                    elif k == "wind": #wind : don't consume the non-existent wind item, and multiply power by wind value in the location
+                        power *= getMap()["locations"][p]["wind"]
+                    elif k == "chargedbattery": #chargedbattery : check from bag not from plot resources, and have to check total so far since bag is for everything, order is arbitrary
+                        batteries += v*num
+                        if amountinbag(user,k) < batteries:
+                            condition = False
+                            break
+                    elif getplotresource(p,k) < v*num: #otherwise: just work as normal checking the plot resources
+                        condition = False
+                        break
+                if conditions:
+                    energies[p] = -power
+                else:
+                    energies[p] = 0
+            else:
+                energies[p] = 0
+    addalltobag(user,resources)
+    return energies
+
+def energyconsumedbyplot(user):
+    plots = getplots(user)
+    energies = {}
+    batteries = 0
+    for p in plots.keys():
+        if p == "storage":
+            continue
+        for m,num in getplotmachines(user,p).items():
+            conditions = True
+            power = getPlotmachines()[m]["power"]
+            if power > 0:
+                for k,v in getPlotmachines()[m]["consumed"].items():
+                    if k == "battery": #battery : check from bag not from plot resources, and have to check total so far since bag is for everything, order is arbitrary
+                        batteries += v*num
+                        if amountinbag(user,k) < batteries:
+                            condition = False
+                            break
+                    elif getplotresource(p,k) < v*num: #otherwise: just work as normal checking the plot resources
+                        condition = False
+                        break
+                if conditions:
+                    energies[p] = power
+                else:
+                    energies[p] = 0
+            else:
+                energies[p] = 0
+    addalltobag(user,resources)
+    return energies
+
+def doesplothaveenoughenergy(user,plot):
+    if plot == "storage": return True #its skipped anyway when resources are collected, just True so that the need more energy message doesn't display in /plots
+    return energyproducedbyplot(user)[plot] >= energyconsumedbyplot(user)[plot]

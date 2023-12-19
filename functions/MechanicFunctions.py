@@ -1090,6 +1090,7 @@ def addplots(user,plot,amount=1):
             users[str(user.id)]["plots"][plot] = {"number":amount,"resources":resources,"machines":{}}
         except:
             users[str(user.id)]["plots"] = {plot:{"number":amount,"resources":resources,"machines":{}}}
+    writeUsers()
 
 def valid_plot(plot_name):
     try:
@@ -1120,18 +1121,21 @@ def addplotmachines(user,plot,machine,amount=1):
         users[str(user.id)]["plots"][plot]["machines"][machine] += amount
     except:
         users[str(user.id)]["plots"][plot]["machines"][machine] = amount
+    writeUsers()
     
 def removeplotmachines(user,plot,machine,amount=1):
     users = getUsers()
     plot = format(plot)
     machine = format(machine)
     users[str(user.id)]["plots"][plot]["machines"][machine] -= amount
+    writeUsers()
     
 def removeplotresources(user,plot,resource,amount=1):
     users = getUsers()
     plot = format(plot)
     resource = format(resource)
     users[str(user.id)]["plots"][plot]["resources"][resource] -= amount
+    writeUsers()
     
 def getplots(user):
     users = getUsers()
@@ -1210,6 +1214,7 @@ def collectplotsbyhand(user):
             except:
                 resources[r] = num
     addalltobag(user,resources)
+    writeUsers()
     return resources
 
 def collectplotsbymachine(user):
@@ -1256,6 +1261,7 @@ def collectplotsbymachine(user):
             except:
                 extracted[r] = num
     addalltobag(user,extracted)
+    writeUsers()
     return (extracted,consumed)
 
 def energyproducedbyplot(user):

@@ -1056,3 +1056,123 @@ def getboycotts(user):
         return users[str(user.id)]["boycotts"]
     except:
         return {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### PLOTS ###
+    
+def addplots(user,plot,amount=1):
+    users = getUsers()
+    plot = format(plot)
+    resourcesMap = getMap()["locations"][plot]["resources"]
+    resources = {}
+    for k,v in resourcesMap.enumerate():
+        resources[k] = parse_number(v)
+    try:
+        users[str(user.id)]["plots"][plot]["number"] += amount
+        for resource,num in resources:
+            users[str(user.id)]["plots"][plot]["resources"][resource] += num
+    except:
+        try:
+            users[str(user.id)]["plots"][plot] = {"number":amount,"resources":resources,"machines":{}}
+        except:
+            users[str(user.id)]["plots"] = {plot:{"number":amount,"resources":resources,"machines":{}}}
+    
+def addplotmachines(user,plot,machine,amount=1):
+    users = getUsers()
+    plot = format(plot)
+    machine = format(machine)
+    try:
+        users[str(user.id)]["plots"][plot]["machines"][machine] += amount
+    except:
+        users[str(user.id)]["plots"][plot]["machines"][machine] = amount
+    
+def removeplotmachines(user,plot,machine,amount=1):
+    users = getUsers()
+    plot = format(plot)
+    machine = format(machine)
+    users[str(user.id)]["plots"][plot]["machines"][machine] -= amount
+    
+def removeplotresources(user,plot,resource,amount=1):
+    users = getUsers()
+    plot = format(plot)
+    resource = format(resource)
+    users[str(user.id)]["plots"][plot]["resources"][resource] -= amount
+    
+def getplots(user):
+    users = getUsers()
+    try:
+        return users[str(user.id)]["plots"]
+    except:
+        return {}
+
+def getplotnumber(user,plot):
+    users = getUsers()
+    plot = format(plot)
+    try:
+        return users[str(user.id)]["plots"][plot]["number"]
+    except:
+        return 0
+
+def getplotresources(user,plot):
+    users = getUsers()
+    plot = format(plot)
+    try:
+        return users[str(user.id)]["plots"][plot]["resources"]
+    except:
+        return {}
+
+def getplotresource(user,plot,resource):
+    users = getUsers()
+    plot = format(plot)
+    resource = format(resource)
+    try:
+        return users[str(user.id)]["plots"][plot]["resources"][resource]
+    except:
+        return 0
+
+def getplotmachines(user,plot):
+    users = getUsers()
+    resource = format(resource)
+    try:
+        return users[str(user.id)]["plots"][plot]["machines"]
+    except:
+        return {}
+
+def getplotmachine(user,plot,machine):
+    users = getUsers()
+    plot = format(plot)
+    machine = format(machine)
+    try:
+        return users[str(user.id)]["plots"][plot]["machines"][machine]
+    except:
+        return 0
+
+def collectdailyplots(user):
+    plots = getplots(user)
+    resourcesLimit = getResources()
+    resources = {}
+    for p in plots.keys():
+        for r in getplotresources(user,p).keys():
+            num = getplotresource(user,p,r)
+            if num > resourcesLimit[r]: num = resourcesLimit[r]
+            removeplotresources(user,p,r,num)
+            try:
+                resources[r] += num
+            except:
+                resources[r] = num
+    addalltobag(user,resources)
+    return resources

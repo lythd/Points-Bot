@@ -88,8 +88,8 @@ class PlotCommands(commands.Cog):
         user = interaction.user
         plots = getplots(user)
         name = format(location)
-        plot = plots[name]
         if valid_plot(name) and getplotnumber(user,name) > 0:
+            plot = plots[name]
             pages = []
             count = 0
             em = discord.Embed(title = "Plot 1/{}".format(math.ceil(len(plots)/18)), description = f"{plot['number']} plots | {getplotnummachines(user,name)} machines | {getplotnumresources(user,name)} resources | {energproducedbyplot(user)[name]} energy produced | {energyconsumedbyplot(user)[name]} energy consumed{'' if doesplothaveenoughenergy(user,name) else ' | More power needed!'}", color=colorInfo())

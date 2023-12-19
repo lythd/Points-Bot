@@ -92,21 +92,21 @@ class PlotCommands(commands.Cog):
             plot = plots[name]
             pages = []
             count = 0
-            em = discord.Embed(title = "Plot 1/{}".format(math.ceil(len(plots)/18)), description = f"{plot['number']} plots | {getplotnummachines(user,name)} machines | {getplotnumresources(user,name)} resources | {energproducedbyplot(user)[name]} energy produced | {energyconsumedbyplot(user)[name]} energy consumed{'' if doesplothaveenoughenergy(user,name) else ' | More power needed!'}", color=colorInfo())
+            em = discord.Embed(title = "Plot 1/{}".format(math.ceil(len(plots)/18)), description = f"{plot['number']} plots | {getplotnummachines(user,name)} machines | {getplotnumresources(user,name)} resources | {energyproducedbyplot(user)[name]} energy produced | {energyconsumedbyplot(user)[name]} energy consumed{'' if doesplothaveenoughenergy(user,name) else ' | More power needed!'}", color=colorInfo())
             for m,num in plot["machines"].items():
                 em.add_field(name=f"{num} {getPlotmachines()[m]['name']}",value=getPlotmachines()[m]["description"])
                 count += 1
                 if count > 17:
                     count = 0
                     pages.append(em)
-                    em = discord.Embed(title = "Plot {}/{}".format(len(pages)+1, math.ceil(len(plots)/18)), description = f"{plot['number']} plots | {getplotnummachines(user,name)} machines | {getplotnumresources(user,name)} resources | {energproducedbyplot(user)[name]} energy produced | {energyconsumedbyplot(user)[name]} energy consumed{'' if doesplothaveenoughenergy(user,name) else ' | More power needed!'}",color=colorInfo())
+                    em = discord.Embed(title = "Plot {}/{}".format(len(pages)+1, math.ceil(len(plots)/18)), description = f"{plot['number']} plots | {getplotnummachines(user,name)} machines | {getplotnumresources(user,name)} resources | {energyproducedbyplot(user)[name]} energy produced | {energyconsumedbyplot(user)[name]} energy consumed{'' if doesplothaveenoughenergy(user,name) else ' | More power needed!'}",color=colorInfo())
             for r,num in plot["resources"].items():
                 em.add_field(name=f"{num} {capital(r)}",value=get_item_desc(r))
                 count += 1
                 if count > 17:
                     count = 0
                     pages.append(em)
-                    em = discord.Embed(title = "Plot {}/{}".format(len(pages)+1, math.ceil(len(plots)/18)), description = f"{plot['number']} plots | {getplotnummachines(user,name)} machines | {getplotnumresources(user,name)} resources | {energproducedbyplot(user)[name]} energy produced | {energyconsumedbyplot(user)[name]} energy consumed{'' if doesplothaveenoughenergy(user,name) else ' | More power needed!'}",color=colorInfo())
+                    em = discord.Embed(title = "Plot {}/{}".format(len(pages)+1, math.ceil(len(plots)/18)), description = f"{plot['number']} plots | {getplotnummachines(user,name)} machines | {getplotnumresources(user,name)} resources | {energyproducedbyplot(user)[name]} energy produced | {energyconsumedbyplot(user)[name]} energy consumed{'' if doesplothaveenoughenergy(user,name) else ' | More power needed!'}",color=colorInfo())
             await interaction.response.send_message(embed=em)
         else:
             await interaction.response.send_message(embed=discord.Embed(title = "**You have no plots there.**",color=colorError()))

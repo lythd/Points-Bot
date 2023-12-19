@@ -124,7 +124,7 @@ class PlotCommands(commands.Cog):
                 await interaction.response.send_message(embed=discord.Embed(title = "**You can only buy plots in the Blue Republic. If the land your plot is on is taken so will your plots be.**",color=colorError()))
                 return
             price = 1000 * amount
-            if price < update_bank(user):
+            if price > update_bank(user):
                 await interaction.response.send_message(embed=discord.Embed(title = "**You don't have enough money in your wallet to buy** " + format_number(amount) + " **plots. You would need** " + format_number(price) + " **coins.**",color=colorError()))
                 return
             update_bank(user,-price)

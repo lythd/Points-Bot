@@ -1080,7 +1080,7 @@ def addplots(user,plot,amount=1):
     resourcesMap = getMap()["locations"][plot]["resources"]
     resources = {}
     for k,v in resourcesMap.items():
-        resources[k] = parse_number(v)
+        resources[k] = sum([parse_number(v) for _ in range(amount)])
     try:
         users[str(user.id)]["plots"][plot]["number"] += amount
         for resource,num in resources:

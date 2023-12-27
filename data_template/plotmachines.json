@@ -376,7 +376,7 @@
 		"extracted": {
 			"rawcod": 10
 		},
-		"materials": 
+		"materials": {
 			"string": 50,
 			"ironbar": 5,
 			"basicmachinepart": 1
@@ -390,7 +390,7 @@
 		"extracted": {
 			"rubber": 1
 		},
-		"materials": 
+		"materials": {
 			"wood": 5
 		}
 	},
@@ -402,7 +402,7 @@
 		"extracted": {
 			"magmablock": 10
 		},
-		"materials": 
+		"materials": {
 			"ironpickaxe": 1,
 			"bronzebar": 5,
 			"basicmachinepart": 1
@@ -416,7 +416,7 @@
 		"extracted": {
 			"cloud": 2
 		},
-		"materials":
+		"materials": {
 			"tinbar": 15,
 			"basicmachinepart": 1
 		}
@@ -429,7 +429,7 @@
 		"extracted": {
 			"silkcloth": 1
 		},
-		"materials":
+		"materials": {
 			"string": 25,
 			"wood": 15,
 			"basicmachinepart": 1
@@ -443,7 +443,7 @@
 		"extracted": {
 			"rawsilicon": 10
 		},
-		"materials":
+		"materials": {
 			"ironbar": 25,
 			"basicmachinepart": 1
 		}
@@ -456,7 +456,7 @@
 		"extracted": {
 			"lampoil": 10
 		},
-		"materials":
+		"materials": {
 			"copperbar": 25,
 			"basicmachinepart": 3
 		}

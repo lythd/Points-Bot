@@ -60,6 +60,7 @@ class PlotCommands(commands.Cog):
     - plotcollect command, /plotcollect, Collects your daily maximum from each plot, and collects your hourly bit from machines, these are kept track of seperately.
     - plotconstruct command, /plotput <machine> <location> {amount=1}, Constructs {amount} of <machine> at <location>.
     - plottransfer command, /plottake <machine> <fromlocation> <tolocation> {amount=1}, Moves {amount} of <machine> from <fromlocation> to <tolocation>. Use location of "storage" if you want to stop using something.
+    - plotmachines command, /plotmachines, Displays info about all the plotmachines.
     
     '''
     

@@ -119,6 +119,9 @@ class PlotCommands(commands.Cog):
         open_account(user)
         plots = getplots(user)
         name = format(location)
+        if amount < 1:
+            await interaction.response.send_message(embed=discord.Embed(title = "**Buying failed, amount must be positive.**",color=colorError()))
+            return
         if valid_plot(name):
             if getMap()["locations"][name]["controller"] != "Blue Republic":
                 await interaction.response.send_message(embed=discord.Embed(title = "**You can only buy plots in the Blue Republic. If the land your plot is on is taken so will your plots be.**",color=colorError()))
@@ -129,9 +132,40 @@ class PlotCommands(commands.Cog):
                 return
             update_bank(user,-price)
             addplots(user,name,amount)
-            await interaction.response.send_message(embed=discord.Embed(title = "**You just bought** " + format_number(amount) + " **plots in** " + location + " **for** " + format_number(price) + " **coins.**",color=colorTransaction()))
+            await interaction.response.send_message(embed=discord.Embed(title = "**You just bought** " + format_number(amount) + " **plots in** " + location + " **for** " + format_number(price) + " **coins.**",color=colorPlot()))
         else:
             await interaction.response.send_message(embed=discord.Embed(title = "**That is not a valid location.**",color=colorError()))
+
+    
+    @app_commands.command(description="Crafts a specified amount of an item, check /recipes for the recipes.")
+    @app_commands.describe(machine = "Machine")
+    @app_commands.describe(location = "Location")
+    @app_commands.describe(amount = "Amount")
+    async def plotconstruct(self,interaction:discord.Interaction,machine:str,location:str,amount:int = 1):
+        user = interaction.user
+        open_account(user)
+        users = getUsers()
+        
+        if amount < 1:
+            await interaction.response.send_message(embed=discord.Embed(title = "**Construction failed, amount must be positive.**",color=colorError()))
+            return
+        if not valid_machine(machine):
+            await interaction.response.send_message(embed=discord.Embed(title = "**Invalid machine.**",color=colorError()))
+            return
+        if valid_plot(location) and getplotnumber(user,location) > 0:
+            recipe = getPlotmachines()[format(machine)]
+            inputs = {i:a*amount for i,a in recipe['materials'].items()}
+            
+            for i,a in inputs.items():
+                if amountinbag(user,i) < a:
+                    await interaction.response.send_message(embed=discord.Embed(title = "**You cannot afford this, you need** {} **of** {}**, you only have** {}**.**".format(a,capital(i),amountinbag(user,i)),color=colorError()))
+                    return
+            removeallfrombag(user,inputs)
+            addplotmachines(user,location,format(machine),amount)
+            
+            await interaction.response.send_message(embed=discord.Embed(title = "**You have constructed** " + format_number(amount) + " **of** " + recipe['name'] + " **in** " + capital(location) + "**.**",color=colorPlot()))
+        else:
+            await interaction.response.send_message(embed=discord.Embed(title = "**You have no plots there.**",color=colorError()))
     
     
     

@@ -1102,14 +1102,14 @@ def valid_plot(plot_name):
 def valid_machine(machine_name):
     pms = getPlotmachines()
     for k in pms.keys():
-        if format(k) == format(item_name):
+        if format(k) == format(machine_name):
             return True
     return False
 
 def valid_resource(resource_name):
     resources = getResources()
     for k in resources.keys():
-        if format(k) == format(item_name):
+        if format(k) == format(resource_name):
             return True
     return False
     
